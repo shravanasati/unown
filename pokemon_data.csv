@@ -1,0 +1,1026 @@
+dex,name,generation,types,abilities,hp,attack,defense,sp_atk,sp_def,speed,base_total,is_legendary,height,weight,base_experience
+1,bulbasaur,1,"grass, poison",overgrow; chlorophyll,45,49,49,65,65,45,318,False,7,69,64
+2,ivysaur,1,"grass, poison",overgrow; chlorophyll,60,62,63,80,80,60,405,False,10,130,142
+3,venusaur,1,"grass, poison",overgrow; chlorophyll,80,82,83,100,100,80,525,False,20,1000,236
+4,charmander,1,fire,blaze; solar-power,39,52,43,60,50,65,309,False,6,85,62
+5,charmeleon,1,fire,blaze; solar-power,58,64,58,80,65,80,405,False,11,190,142
+6,charizard,1,"fire, flying",blaze; solar-power,78,84,78,109,85,100,534,False,17,905,240
+7,squirtle,1,water,torrent; rain-dish,44,48,65,50,64,43,314,False,5,90,63
+8,wartortle,1,water,torrent; rain-dish,59,63,80,65,80,58,405,False,10,225,142
+9,blastoise,1,water,torrent; rain-dish,79,83,100,85,105,78,530,False,16,855,239
+10,caterpie,1,bug,shield-dust; run-away,45,30,35,20,20,45,195,False,3,29,39
+11,metapod,1,bug,shed-skin,50,20,55,25,25,30,205,False,7,99,72
+12,butterfree,1,"bug, flying",compound-eyes; tinted-lens,60,45,50,90,80,70,395,False,11,320,178
+13,weedle,1,"bug, poison",shield-dust; run-away,40,35,30,20,20,50,195,False,3,32,39
+14,kakuna,1,"bug, poison",shed-skin,45,25,50,25,25,35,205,False,6,100,72
+15,beedrill,1,"bug, poison",swarm; sniper,65,90,40,45,80,75,395,False,10,295,178
+16,pidgey,1,"normal, flying",keen-eye; tangled-feet; big-pecks,40,45,40,35,35,56,251,False,3,18,50
+17,pidgeotto,1,"normal, flying",keen-eye; tangled-feet; big-pecks,63,60,55,50,50,71,349,False,11,300,122
+18,pidgeot,1,"normal, flying",keen-eye; tangled-feet; big-pecks,83,80,75,70,70,101,479,False,15,395,216
+19,rattata,1,normal,run-away; guts; hustle,30,56,35,25,35,72,253,False,3,35,51
+20,raticate,1,normal,run-away; guts; hustle,55,81,60,50,70,97,413,False,7,185,145
+21,spearow,1,"normal, flying",keen-eye; sniper,40,60,30,31,31,70,262,False,3,20,52
+22,fearow,1,"normal, flying",keen-eye; sniper,65,90,65,61,61,100,442,False,12,380,155
+23,ekans,1,poison,intimidate; shed-skin; unnerve,35,60,44,40,54,55,288,False,20,69,58
+24,arbok,1,poison,intimidate; shed-skin; unnerve,60,95,69,65,79,80,448,False,35,650,157
+25,pikachu,1,electric,static; lightning-rod,35,55,40,50,50,90,320,False,4,60,112
+26,raichu,1,electric,static; lightning-rod,60,90,55,90,80,110,485,False,8,300,218
+27,sandshrew,1,ground,sand-veil; sand-rush,50,75,85,20,30,40,300,False,6,120,60
+28,sandslash,1,ground,sand-veil; sand-rush,75,100,110,45,55,65,450,False,10,295,158
+29,nidoran-f,1,poison,poison-point; rivalry; hustle,55,47,52,40,40,41,275,False,4,70,55
+30,nidorina,1,poison,poison-point; rivalry; hustle,70,62,67,55,55,56,365,False,8,200,128
+31,nidoqueen,1,"poison, ground",poison-point; rivalry; sheer-force,90,92,87,75,85,76,505,False,13,600,227
+32,nidoran-m,1,poison,poison-point; rivalry; hustle,46,57,40,40,40,50,273,False,5,90,55
+33,nidorino,1,poison,poison-point; rivalry; hustle,61,72,57,55,55,65,365,False,9,195,128
+34,nidoking,1,"poison, ground",poison-point; rivalry; sheer-force,81,102,77,85,75,85,505,False,14,620,227
+35,clefairy,1,fairy,cute-charm; magic-guard; friend-guard,70,45,48,60,65,35,323,False,6,75,113
+36,clefable,1,fairy,cute-charm; magic-guard; unaware,95,70,73,95,90,60,483,False,13,400,217
+37,vulpix,1,fire,flash-fire; drought,38,41,40,50,65,65,299,False,6,99,60
+38,ninetales,1,fire,flash-fire; drought,73,76,75,81,100,100,505,False,11,199,177
+39,jigglypuff,1,"normal, fairy",cute-charm; competitive; friend-guard,115,45,20,45,25,20,270,False,5,55,95
+40,wigglytuff,1,"normal, fairy",cute-charm; competitive; frisk,140,70,45,85,50,45,435,False,10,120,196
+41,zubat,1,"poison, flying",inner-focus; infiltrator,40,45,35,30,40,55,245,False,8,75,49
+42,golbat,1,"poison, flying",inner-focus; infiltrator,75,80,70,65,75,90,455,False,16,550,159
+43,oddish,1,"grass, poison",chlorophyll; run-away,45,50,55,75,65,30,320,False,5,54,64
+44,gloom,1,"grass, poison",chlorophyll; stench,60,65,70,85,75,40,395,False,8,86,138
+45,vileplume,1,"grass, poison",chlorophyll; effect-spore,75,80,85,110,90,50,490,False,12,186,221
+46,paras,1,"bug, grass",effect-spore; dry-skin; damp,35,70,55,45,55,25,285,False,3,54,57
+47,parasect,1,"bug, grass",effect-spore; dry-skin; damp,60,95,80,60,80,30,405,False,10,295,142
+48,venonat,1,"bug, poison",compound-eyes; tinted-lens; run-away,60,55,50,40,55,45,305,False,10,300,61
+49,venomoth,1,"bug, poison",shield-dust; tinted-lens; wonder-skin,70,65,60,90,75,90,450,False,15,125,158
+50,diglett,1,ground,sand-veil; arena-trap; sand-force,10,55,25,35,45,95,265,False,2,8,53
+51,dugtrio,1,ground,sand-veil; arena-trap; sand-force,35,100,50,50,70,120,425,False,7,333,149
+52,meowth,1,normal,pickup; technician; unnerve,40,45,35,40,40,90,290,False,4,42,58
+53,persian,1,normal,limber; technician; unnerve,65,70,60,65,65,115,440,False,10,320,154
+54,psyduck,1,water,damp; cloud-nine; swift-swim,50,52,48,65,50,55,320,False,8,196,64
+55,golduck,1,water,damp; cloud-nine; swift-swim,80,82,78,95,80,85,500,False,17,766,175
+56,mankey,1,fighting,vital-spirit; anger-point; defiant,40,80,35,35,45,70,305,False,5,280,61
+57,primeape,1,fighting,vital-spirit; anger-point; defiant,65,105,60,60,70,95,455,False,10,320,159
+58,growlithe,1,fire,intimidate; flash-fire; justified,55,70,45,70,50,60,350,False,7,190,70
+59,arcanine,1,fire,intimidate; flash-fire; justified,90,110,80,100,80,95,555,False,19,1550,194
+60,poliwag,1,water,water-absorb; damp; swift-swim,40,50,40,40,40,90,300,False,6,124,60
+61,poliwhirl,1,water,water-absorb; damp; swift-swim,65,65,65,50,50,90,385,False,10,200,135
+62,poliwrath,1,"water, fighting",water-absorb; damp; swift-swim,90,95,95,70,90,70,510,False,13,540,230
+63,abra,1,psychic,synchronize; inner-focus; magic-guard,25,20,15,105,55,90,310,False,9,195,62
+64,kadabra,1,psychic,synchronize; inner-focus; magic-guard,40,35,30,120,70,105,400,False,13,565,140
+65,alakazam,1,psychic,synchronize; inner-focus; magic-guard,55,50,45,135,95,120,500,False,15,480,225
+66,machop,1,fighting,guts; no-guard; steadfast,70,80,50,35,35,35,305,False,8,195,61
+67,machoke,1,fighting,guts; no-guard; steadfast,80,100,70,50,60,45,405,False,15,705,142
+68,machamp,1,fighting,guts; no-guard; steadfast,90,130,80,65,85,55,505,False,16,1300,227
+69,bellsprout,1,"grass, poison",chlorophyll; gluttony,50,75,35,70,30,40,300,False,7,40,60
+70,weepinbell,1,"grass, poison",chlorophyll; gluttony,65,90,50,85,45,55,390,False,10,64,137
+71,victreebel,1,"grass, poison",chlorophyll; gluttony,80,105,65,100,70,70,490,False,17,155,221
+72,tentacool,1,"water, poison",clear-body; liquid-ooze; rain-dish,40,40,35,50,100,70,335,False,9,455,67
+73,tentacruel,1,"water, poison",clear-body; liquid-ooze; rain-dish,80,70,65,80,120,100,515,False,16,550,180
+74,geodude,1,"rock, ground",rock-head; sturdy; sand-veil,40,80,100,30,30,20,300,False,4,200,60
+75,graveler,1,"rock, ground",rock-head; sturdy; sand-veil,55,95,115,45,45,35,390,False,10,1050,137
+76,golem,1,"rock, ground",rock-head; sturdy; sand-veil,80,120,130,55,65,45,495,False,14,3000,223
+77,ponyta,1,fire,run-away; flash-fire; flame-body,50,85,55,65,65,90,410,False,10,300,82
+78,rapidash,1,fire,run-away; flash-fire; flame-body,65,100,70,80,80,105,500,False,17,950,175
+79,slowpoke,1,"water, psychic",oblivious; own-tempo; regenerator,90,65,65,40,40,15,315,False,12,360,63
+80,slowbro,1,"water, psychic",oblivious; own-tempo; regenerator,95,75,110,100,80,30,490,False,16,785,172
+81,magnemite,1,"electric, steel",magnet-pull; sturdy; analytic,25,35,70,95,55,45,325,False,3,60,65
+82,magneton,1,"electric, steel",magnet-pull; sturdy; analytic,50,60,95,120,70,70,465,False,10,600,163
+83,farfetchd,1,"normal, flying",keen-eye; inner-focus; defiant,52,90,55,58,62,60,377,False,8,150,132
+84,doduo,1,"normal, flying",run-away; early-bird; tangled-feet,35,85,45,35,35,75,310,False,14,392,62
+85,dodrio,1,"normal, flying",run-away; early-bird; tangled-feet,60,110,70,60,60,110,470,False,18,852,165
+86,seel,1,water,thick-fat; hydration; ice-body,65,45,55,45,70,45,325,False,11,900,65
+87,dewgong,1,"water, ice",thick-fat; hydration; ice-body,90,70,80,70,95,70,475,False,17,1200,166
+88,grimer,1,poison,stench; sticky-hold; poison-touch,80,80,50,40,50,25,325,False,9,300,65
+89,muk,1,poison,stench; sticky-hold; poison-touch,105,105,75,65,100,50,500,False,12,300,175
+90,shellder,1,water,shell-armor; skill-link; overcoat,30,65,100,45,25,40,305,False,3,40,61
+91,cloyster,1,"water, ice",shell-armor; skill-link; overcoat,50,95,180,85,45,70,525,False,15,1325,184
+92,gastly,1,"ghost, poison",levitate,30,35,30,100,35,80,310,False,13,1,62
+93,haunter,1,"ghost, poison",levitate,45,50,45,115,55,95,405,False,16,1,142
+94,gengar,1,"ghost, poison",cursed-body,60,65,60,130,75,110,500,False,15,405,225
+95,onix,1,"rock, ground",rock-head; sturdy; weak-armor,35,45,160,30,45,70,385,False,88,2100,77
+96,drowzee,1,psychic,insomnia; forewarn; inner-focus,60,48,45,43,90,42,328,False,10,324,66
+97,hypno,1,psychic,insomnia; forewarn; inner-focus,85,73,70,73,115,67,483,False,16,756,169
+98,krabby,1,water,hyper-cutter; shell-armor; sheer-force,30,105,90,25,25,50,325,False,4,65,65
+99,kingler,1,water,hyper-cutter; shell-armor; sheer-force,55,130,115,50,50,75,475,False,13,600,166
+100,voltorb,1,electric,soundproof; static; aftermath,40,30,50,55,55,100,330,False,5,104,66
+101,electrode,1,electric,soundproof; static; aftermath,60,50,70,80,80,150,490,False,12,666,172
+102,exeggcute,1,"grass, psychic",chlorophyll; harvest,60,40,80,60,45,40,325,False,4,25,65
+103,exeggutor,1,"grass, psychic",chlorophyll; harvest,95,95,85,125,75,55,530,False,20,1200,186
+104,cubone,1,ground,rock-head; lightning-rod; battle-armor,50,50,95,40,50,35,320,False,4,65,64
+105,marowak,1,ground,rock-head; lightning-rod; battle-armor,60,80,110,50,80,45,425,False,10,450,149
+106,hitmonlee,1,fighting,limber; reckless; unburden,50,120,53,35,110,87,455,False,15,498,159
+107,hitmonchan,1,fighting,keen-eye; iron-fist; inner-focus,50,105,79,35,110,76,455,False,14,502,159
+108,lickitung,1,normal,own-tempo; oblivious; cloud-nine,90,55,75,60,75,30,385,False,12,655,77
+109,koffing,1,poison,levitate; neutralizing-gas; stench,40,65,95,60,45,35,340,False,6,10,68
+110,weezing,1,poison,levitate; neutralizing-gas; stench,65,90,120,85,70,60,490,False,12,95,172
+111,rhyhorn,1,"ground, rock",lightning-rod; rock-head; reckless,80,85,95,30,30,25,345,False,10,1150,69
+112,rhydon,1,"ground, rock",lightning-rod; rock-head; reckless,105,130,120,45,45,40,485,False,19,1200,170
+113,chansey,1,normal,natural-cure; serene-grace; healer,250,5,5,35,105,50,450,False,11,346,395
+114,tangela,1,grass,chlorophyll; leaf-guard; regenerator,65,55,115,100,40,60,435,False,10,350,87
+115,kangaskhan,1,normal,early-bird; scrappy; inner-focus,105,95,80,40,80,90,490,False,22,800,172
+116,horsea,1,water,swift-swim; sniper; damp,30,40,70,70,25,60,295,False,4,80,59
+117,seadra,1,water,poison-point; sniper; damp,55,65,95,95,45,85,440,False,12,250,154
+118,goldeen,1,water,swift-swim; water-veil; lightning-rod,45,67,60,35,50,63,320,False,6,150,64
+119,seaking,1,water,swift-swim; water-veil; lightning-rod,80,92,65,65,80,68,450,False,13,390,158
+120,staryu,1,water,illuminate; natural-cure; analytic,30,45,55,70,55,85,340,False,8,345,68
+121,starmie,1,"water, psychic",illuminate; natural-cure; analytic,60,75,85,100,85,115,520,False,11,800,182
+122,mr-mime,1,"psychic, fairy",soundproof; filter; technician,40,45,65,100,120,90,460,False,13,545,161
+123,scyther,1,"bug, flying",swarm; technician; steadfast,70,110,80,55,80,105,500,False,15,560,100
+124,jynx,1,"ice, psychic",oblivious; forewarn; dry-skin,65,50,35,115,95,95,455,False,14,406,159
+125,electabuzz,1,electric,static; vital-spirit,65,83,57,95,85,105,490,False,11,300,172
+126,magmar,1,fire,flame-body; vital-spirit,65,95,57,100,85,93,495,False,13,445,173
+127,pinsir,1,bug,hyper-cutter; mold-breaker; moxie,65,125,100,55,70,85,500,False,15,550,175
+128,tauros,1,normal,intimidate; anger-point; sheer-force,75,100,95,40,70,110,490,False,14,884,172
+129,magikarp,1,water,swift-swim; rattled,20,10,55,15,20,80,200,False,9,100,40
+130,gyarados,1,"water, flying",intimidate; moxie,95,125,79,60,100,81,540,False,65,2350,189
+131,lapras,1,"water, ice",water-absorb; shell-armor; hydration,130,85,80,85,95,60,535,False,25,2200,187
+132,ditto,1,normal,limber; imposter,48,48,48,48,48,48,288,False,3,40,101
+133,eevee,1,normal,run-away; adaptability; anticipation,55,55,50,45,65,55,325,False,3,65,65
+134,vaporeon,1,water,water-absorb; hydration,130,65,60,110,95,65,525,False,10,290,184
+135,jolteon,1,electric,volt-absorb; quick-feet,65,65,60,110,95,130,525,False,8,245,184
+136,flareon,1,fire,flash-fire; guts,65,130,60,95,110,65,525,False,9,250,184
+137,porygon,1,normal,trace; download; analytic,65,60,70,85,75,40,395,False,8,365,79
+138,omanyte,1,"rock, water",swift-swim; shell-armor; weak-armor,35,40,100,90,55,35,355,False,4,75,71
+139,omastar,1,"rock, water",swift-swim; shell-armor; weak-armor,70,60,125,115,70,55,495,False,10,350,173
+140,kabuto,1,"rock, water",swift-swim; battle-armor; weak-armor,30,80,90,55,45,55,355,False,5,115,71
+141,kabutops,1,"rock, water",swift-swim; battle-armor; weak-armor,60,115,105,65,70,80,495,False,13,405,173
+142,aerodactyl,1,"rock, flying",rock-head; pressure; unnerve,80,105,65,60,75,130,515,False,18,590,180
+143,snorlax,1,normal,immunity; thick-fat; gluttony,160,110,65,65,110,30,540,False,21,4600,189
+144,articuno,1,"ice, flying",pressure; snow-cloak,90,85,100,95,125,85,580,True,17,554,261
+145,zapdos,1,"electric, flying",pressure; static,90,90,85,125,90,100,580,True,16,526,261
+146,moltres,1,"fire, flying",pressure; flame-body,90,100,90,125,85,90,580,True,20,600,261
+147,dratini,1,dragon,shed-skin; marvel-scale,41,64,45,50,50,50,300,False,18,33,60
+148,dragonair,1,dragon,shed-skin; marvel-scale,61,84,65,70,70,70,420,False,40,165,147
+149,dragonite,1,"dragon, flying",inner-focus; multiscale,91,134,95,100,100,80,600,False,22,2100,270
+150,mewtwo,1,psychic,pressure; unnerve,106,110,90,154,90,130,680,True,20,1220,306
+151,mew,1,psychic,synchronize,100,100,100,100,100,100,600,False,4,40,270
+152,chikorita,2,grass,overgrow; leaf-guard,45,49,65,49,65,45,318,False,9,64,64
+153,bayleef,2,grass,overgrow; leaf-guard,60,62,80,63,80,60,405,False,12,158,142
+154,meganium,2,grass,overgrow; leaf-guard,80,82,100,83,100,80,525,False,18,1005,236
+155,cyndaquil,2,fire,blaze; flash-fire,39,52,43,60,50,65,309,False,5,79,62
+156,quilava,2,fire,blaze; flash-fire,58,64,58,80,65,80,405,False,9,190,142
+157,typhlosion,2,fire,blaze; flash-fire,78,84,78,109,85,100,534,False,17,795,240
+158,totodile,2,water,torrent; sheer-force,50,65,64,44,48,43,314,False,6,95,63
+159,croconaw,2,water,torrent; sheer-force,65,80,80,59,63,58,405,False,11,250,142
+160,feraligatr,2,water,torrent; sheer-force,85,105,100,79,83,78,530,False,23,888,239
+161,sentret,2,normal,run-away; keen-eye; frisk,35,46,34,35,45,20,215,False,8,60,43
+162,furret,2,normal,run-away; keen-eye; frisk,85,76,64,45,55,90,415,False,18,325,145
+163,hoothoot,2,"normal, flying",insomnia; keen-eye; tinted-lens,60,30,30,36,56,50,262,False,7,212,52
+164,noctowl,2,"normal, flying",insomnia; keen-eye; tinted-lens,100,50,50,86,96,70,452,False,16,408,158
+165,ledyba,2,"bug, flying",swarm; early-bird; rattled,40,20,30,40,80,55,265,False,10,108,53
+166,ledian,2,"bug, flying",swarm; early-bird; iron-fist,55,35,50,55,110,85,390,False,14,356,137
+167,spinarak,2,"bug, poison",swarm; insomnia; sniper,40,60,40,40,40,30,250,False,5,85,50
+168,ariados,2,"bug, poison",swarm; insomnia; sniper,70,90,70,60,70,40,400,False,11,335,140
+169,crobat,2,"poison, flying",inner-focus; infiltrator,85,90,80,70,80,130,535,False,18,750,241
+170,chinchou,2,"water, electric",volt-absorb; illuminate; water-absorb,75,38,38,56,56,67,330,False,5,120,66
+171,lanturn,2,"water, electric",volt-absorb; illuminate; water-absorb,125,58,58,76,76,67,460,False,12,225,161
+172,pichu,2,electric,static; lightning-rod,20,40,15,35,35,60,205,False,3,20,41
+173,cleffa,2,fairy,cute-charm; magic-guard; friend-guard,50,25,28,45,55,15,218,False,3,30,44
+174,igglybuff,2,"normal, fairy",cute-charm; competitive; friend-guard,90,30,15,40,20,15,210,False,3,10,42
+175,togepi,2,fairy,hustle; serene-grace; super-luck,35,20,65,40,65,20,245,False,3,15,49
+176,togetic,2,"fairy, flying",hustle; serene-grace; super-luck,55,40,85,80,105,40,405,False,6,32,142
+177,natu,2,"psychic, flying",synchronize; early-bird; magic-bounce,40,50,45,70,45,70,320,False,2,20,64
+178,xatu,2,"psychic, flying",synchronize; early-bird; magic-bounce,65,75,70,95,70,95,470,False,15,150,165
+179,mareep,2,electric,static; plus,55,40,40,65,45,35,280,False,6,78,56
+180,flaaffy,2,electric,static; plus,70,55,55,80,60,45,365,False,8,133,128
+181,ampharos,2,electric,static; plus,90,75,85,115,90,55,510,False,14,615,230
+182,bellossom,2,grass,chlorophyll; healer,75,80,95,90,100,50,490,False,4,58,221
+183,marill,2,"water, fairy",thick-fat; huge-power; sap-sipper,70,20,50,20,50,40,250,False,4,85,88
+184,azumarill,2,"water, fairy",thick-fat; huge-power; sap-sipper,100,50,80,60,80,50,420,False,8,285,189
+185,sudowoodo,2,rock,sturdy; rock-head; rattled,70,100,115,30,65,30,410,False,12,380,144
+186,politoed,2,water,water-absorb; damp; drizzle,90,75,75,90,100,70,500,False,11,339,225
+187,hoppip,2,"grass, flying",chlorophyll; leaf-guard; infiltrator,35,35,40,35,55,50,250,False,4,5,50
+188,skiploom,2,"grass, flying",chlorophyll; leaf-guard; infiltrator,55,45,50,45,65,80,340,False,6,10,119
+189,jumpluff,2,"grass, flying",chlorophyll; leaf-guard; infiltrator,75,55,70,55,95,110,460,False,8,30,207
+190,aipom,2,normal,run-away; pickup; skill-link,55,70,55,40,55,85,360,False,8,115,72
+191,sunkern,2,grass,chlorophyll; solar-power; early-bird,30,30,30,30,30,30,180,False,3,18,36
+192,sunflora,2,grass,chlorophyll; solar-power; early-bird,75,75,55,105,85,30,425,False,8,85,149
+193,yanma,2,"bug, flying",speed-boost; compound-eyes; frisk,65,65,45,75,45,95,390,False,12,380,78
+194,wooper,2,"water, ground",damp; water-absorb; unaware,55,45,45,25,25,15,210,False,4,85,42
+195,quagsire,2,"water, ground",damp; water-absorb; unaware,95,85,85,65,65,35,430,False,14,750,151
+196,espeon,2,psychic,synchronize; magic-bounce,65,65,60,130,95,110,525,False,9,265,184
+197,umbreon,2,dark,synchronize; inner-focus,95,65,110,60,130,65,525,False,10,270,184
+198,murkrow,2,"dark, flying",insomnia; super-luck; prankster,60,85,42,85,42,91,405,False,5,21,81
+199,slowking,2,"water, psychic",oblivious; own-tempo; regenerator,95,75,80,100,110,30,490,False,20,795,172
+200,misdreavus,2,ghost,levitate,60,60,60,85,85,85,435,False,7,10,87
+201,unown,2,psychic,levitate,48,72,48,72,48,48,336,False,5,50,118
+202,wobbuffet,2,psychic,shadow-tag; telepathy,190,33,58,33,58,33,405,False,13,285,142
+203,girafarig,2,"normal, psychic",inner-focus; early-bird; sap-sipper,70,80,65,90,65,85,455,False,15,415,159
+204,pineco,2,bug,sturdy; overcoat,50,65,90,35,35,15,290,False,6,72,58
+205,forretress,2,"bug, steel",sturdy; overcoat,75,90,140,60,60,40,465,False,12,1258,163
+206,dunsparce,2,normal,serene-grace; run-away; rattled,100,70,70,65,65,45,415,False,15,140,145
+207,gligar,2,"ground, flying",hyper-cutter; sand-veil; immunity,65,75,105,35,65,85,430,False,11,648,86
+208,steelix,2,"steel, ground",rock-head; sturdy; sheer-force,75,85,200,55,65,30,510,False,92,4000,179
+209,snubbull,2,fairy,intimidate; run-away; rattled,60,80,50,40,40,30,300,False,6,78,60
+210,granbull,2,fairy,intimidate; quick-feet; rattled,90,120,75,60,60,45,450,False,14,487,158
+211,qwilfish,2,"water, poison",poison-point; swift-swim; intimidate,65,95,85,55,55,85,440,False,5,39,88
+212,scizor,2,"bug, steel",swarm; technician; light-metal,70,130,100,55,80,65,500,False,18,1180,175
+213,shuckle,2,"bug, rock",sturdy; gluttony; contrary,20,10,230,10,230,5,505,False,6,205,177
+214,heracross,2,"bug, fighting",swarm; guts; moxie,80,125,75,40,95,85,500,False,15,540,175
+215,sneasel,2,"dark, ice",inner-focus; keen-eye; pickpocket,55,95,55,35,75,115,430,False,9,280,86
+216,teddiursa,2,normal,pickup; quick-feet; honey-gather,60,80,50,50,50,40,330,False,6,88,66
+217,ursaring,2,normal,guts; quick-feet; unnerve,90,130,75,75,75,55,500,False,18,1258,175
+218,slugma,2,fire,magma-armor; flame-body; weak-armor,40,40,40,70,40,20,250,False,7,350,50
+219,magcargo,2,"fire, rock",magma-armor; flame-body; weak-armor,60,50,120,90,80,30,430,False,8,550,151
+220,swinub,2,"ice, ground",oblivious; snow-cloak; thick-fat,50,50,40,30,30,50,250,False,4,65,50
+221,piloswine,2,"ice, ground",oblivious; snow-cloak; thick-fat,100,100,80,60,60,50,450,False,11,558,158
+222,corsola,2,"water, rock",hustle; natural-cure; regenerator,65,55,95,65,95,35,410,False,6,50,144
+223,remoraid,2,water,hustle; sniper; moody,35,65,35,65,35,65,300,False,6,120,60
+224,octillery,2,water,suction-cups; sniper; moody,75,105,75,105,75,45,480,False,9,285,168
+225,delibird,2,"ice, flying",vital-spirit; hustle; insomnia,45,55,45,65,45,75,330,False,9,160,116
+226,mantine,2,"water, flying",swift-swim; water-absorb; water-veil,85,40,70,80,140,70,485,False,21,2200,170
+227,skarmory,2,"steel, flying",keen-eye; sturdy; weak-armor,65,80,140,40,70,70,465,False,17,505,163
+228,houndour,2,"dark, fire",early-bird; flash-fire; unnerve,45,60,30,80,50,65,330,False,6,108,66
+229,houndoom,2,"dark, fire",early-bird; flash-fire; unnerve,75,90,50,110,80,95,500,False,14,350,175
+230,kingdra,2,"water, dragon",swift-swim; sniper; damp,75,95,95,95,95,85,540,False,18,1520,243
+231,phanpy,2,ground,pickup; sand-veil,90,60,60,40,40,40,330,False,5,335,66
+232,donphan,2,ground,sturdy; sand-veil,90,120,120,60,60,50,500,False,11,1200,175
+233,porygon2,2,normal,trace; download; analytic,85,80,90,105,95,60,515,False,6,325,180
+234,stantler,2,normal,intimidate; frisk; sap-sipper,73,95,62,85,65,85,465,False,14,712,163
+235,smeargle,2,normal,own-tempo; technician; moody,55,20,35,20,45,75,250,False,12,580,88
+236,tyrogue,2,fighting,guts; steadfast; vital-spirit,35,35,35,35,35,35,210,False,7,210,42
+237,hitmontop,2,fighting,intimidate; technician; steadfast,50,95,95,35,110,70,455,False,14,480,159
+238,smoochum,2,"ice, psychic",oblivious; forewarn; hydration,45,30,15,85,65,65,305,False,4,60,61
+239,elekid,2,electric,static; vital-spirit,45,63,37,65,55,95,360,False,6,235,72
+240,magby,2,fire,flame-body; vital-spirit,45,75,37,70,55,83,365,False,7,214,73
+241,miltank,2,normal,thick-fat; scrappy; sap-sipper,95,80,105,40,70,100,490,False,12,755,172
+242,blissey,2,normal,natural-cure; serene-grace; healer,255,10,10,75,135,55,540,False,15,468,608
+243,raikou,2,electric,pressure; inner-focus,90,85,75,115,100,115,580,True,19,1780,261
+244,entei,2,fire,pressure; inner-focus,115,115,85,90,75,100,580,True,21,1980,261
+245,suicune,2,water,pressure; inner-focus,100,75,115,90,115,85,580,True,20,1870,261
+246,larvitar,2,"rock, ground",guts; sand-veil,50,64,50,45,50,41,300,False,6,720,60
+247,pupitar,2,"rock, ground",shed-skin,70,84,70,65,70,51,410,False,12,1520,144
+248,tyranitar,2,"rock, dark",sand-stream; unnerve,100,134,110,95,100,61,600,False,20,2020,270
+249,lugia,2,"psychic, flying",pressure; multiscale,106,90,130,90,154,110,680,True,52,2160,306
+250,ho-oh,2,"fire, flying",pressure; regenerator,106,130,90,110,154,90,680,True,38,1990,306
+251,celebi,2,"psychic, grass",natural-cure,100,100,100,100,100,100,600,False,6,50,270
+252,treecko,3,grass,overgrow; unburden,40,45,35,65,55,70,310,False,5,50,62
+253,grovyle,3,grass,overgrow; unburden,50,65,45,85,65,95,405,False,9,216,142
+254,sceptile,3,grass,overgrow; unburden,70,85,65,105,85,120,530,False,17,522,239
+255,torchic,3,fire,blaze; speed-boost,45,60,40,70,50,45,310,False,4,25,62
+256,combusken,3,"fire, fighting",blaze; speed-boost,60,85,60,85,60,55,405,False,9,195,142
+257,blaziken,3,"fire, fighting",blaze; speed-boost,80,120,70,110,70,80,530,False,19,520,239
+258,mudkip,3,water,torrent; damp,50,70,50,50,50,40,310,False,4,76,62
+259,marshtomp,3,"water, ground",torrent; damp,70,85,70,60,70,50,405,False,7,280,142
+260,swampert,3,"water, ground",torrent; damp,100,110,90,85,90,60,535,False,15,819,241
+261,poochyena,3,dark,run-away; quick-feet; rattled,35,55,35,30,30,35,220,False,5,136,56
+262,mightyena,3,dark,intimidate; quick-feet; moxie,70,90,70,60,60,70,420,False,10,370,147
+263,zigzagoon,3,normal,pickup; gluttony; quick-feet,38,30,41,30,41,60,240,False,4,175,56
+264,linoone,3,normal,pickup; gluttony; quick-feet,78,70,61,50,61,100,420,False,5,325,147
+265,wurmple,3,bug,shield-dust; run-away,45,45,35,20,30,20,195,False,3,36,56
+266,silcoon,3,bug,shed-skin,50,35,55,25,25,15,205,False,6,100,72
+267,beautifly,3,"bug, flying",swarm; rivalry,60,70,50,100,50,65,395,False,10,284,178
+268,cascoon,3,bug,shed-skin,50,35,55,25,25,15,205,False,7,115,72
+269,dustox,3,"bug, poison",shield-dust; compound-eyes,60,50,70,50,90,65,385,False,12,316,173
+270,lotad,3,"water, grass",swift-swim; rain-dish; own-tempo,40,30,30,40,50,30,220,False,5,26,44
+271,lombre,3,"water, grass",swift-swim; rain-dish; own-tempo,60,50,50,60,70,50,340,False,12,325,119
+272,ludicolo,3,"water, grass",swift-swim; rain-dish; own-tempo,80,70,70,90,100,70,480,False,15,550,216
+273,seedot,3,grass,chlorophyll; early-bird; pickpocket,40,40,50,30,30,30,220,False,5,40,44
+274,nuzleaf,3,"grass, dark",chlorophyll; early-bird; pickpocket,70,70,40,60,40,60,340,False,10,280,119
+275,shiftry,3,"grass, dark",chlorophyll; wind-rider; pickpocket,90,100,60,90,60,80,480,False,13,596,216
+276,taillow,3,"normal, flying",guts; scrappy,40,55,30,30,30,85,270,False,3,23,54
+277,swellow,3,"normal, flying",guts; scrappy,60,85,60,75,50,125,455,False,7,198,159
+278,wingull,3,"water, flying",keen-eye; hydration; rain-dish,40,30,30,55,30,85,270,False,6,95,54
+279,pelipper,3,"water, flying",keen-eye; drizzle; rain-dish,60,50,100,95,70,65,440,False,12,280,154
+280,ralts,3,"psychic, fairy",synchronize; trace; telepathy,28,25,25,45,35,40,198,False,4,66,40
+281,kirlia,3,"psychic, fairy",synchronize; trace; telepathy,38,35,35,65,55,50,278,False,8,202,97
+282,gardevoir,3,"psychic, fairy",synchronize; trace; telepathy,68,65,65,125,115,80,518,False,16,484,233
+283,surskit,3,"bug, water",swift-swim; rain-dish,40,30,32,50,52,65,269,False,5,17,54
+284,masquerain,3,"bug, flying",intimidate; unnerve,70,60,62,100,82,80,454,False,8,36,159
+285,shroomish,3,grass,effect-spore; poison-heal; quick-feet,60,40,60,40,60,35,295,False,4,45,59
+286,breloom,3,"grass, fighting",effect-spore; poison-heal; technician,60,130,80,60,60,70,460,False,12,392,161
+287,slakoth,3,normal,truant,60,60,60,35,35,30,280,False,8,240,56
+288,vigoroth,3,normal,vital-spirit,80,80,80,55,55,90,440,False,14,465,154
+289,slaking,3,normal,truant,150,160,100,95,65,100,670,False,20,1305,252
+290,nincada,3,"bug, ground",compound-eyes; run-away,31,45,90,30,30,40,266,False,5,55,53
+291,ninjask,3,"bug, flying",speed-boost; infiltrator,61,90,45,50,50,160,456,False,8,120,160
+292,shedinja,3,"bug, ghost",wonder-guard,1,90,45,30,30,40,236,False,8,12,83
+293,whismur,3,normal,soundproof; rattled,64,51,23,51,23,28,240,False,6,163,48
+294,loudred,3,normal,soundproof; scrappy,84,71,43,71,43,48,360,False,10,405,126
+295,exploud,3,normal,soundproof; scrappy,104,91,63,91,73,68,490,False,15,840,221
+296,makuhita,3,fighting,thick-fat; guts; sheer-force,72,60,30,20,30,25,237,False,10,864,47
+297,hariyama,3,fighting,thick-fat; guts; sheer-force,144,120,60,40,60,50,474,False,23,2538,166
+298,azurill,3,"normal, fairy",thick-fat; huge-power; sap-sipper,50,20,40,20,40,20,190,False,2,20,38
+299,nosepass,3,rock,sturdy; magnet-pull; sand-force,30,45,135,45,90,30,375,False,10,970,75
+300,skitty,3,normal,cute-charm; normalize; wonder-skin,50,45,45,35,35,50,260,False,6,110,52
+301,delcatty,3,normal,cute-charm; normalize; wonder-skin,70,65,65,55,55,90,400,False,11,326,140
+302,sableye,3,"dark, ghost",keen-eye; stall; prankster,50,75,75,65,65,50,380,False,5,110,133
+303,mawile,3,"steel, fairy",hyper-cutter; intimidate; sheer-force,50,85,85,55,55,50,380,False,6,115,133
+304,aron,3,"steel, rock",sturdy; rock-head; heavy-metal,50,70,100,40,40,30,330,False,4,600,66
+305,lairon,3,"steel, rock",sturdy; rock-head; heavy-metal,60,90,140,50,50,40,430,False,9,1200,151
+306,aggron,3,"steel, rock",sturdy; rock-head; heavy-metal,70,110,180,60,60,50,530,False,21,3600,239
+307,meditite,3,"fighting, psychic",pure-power; telepathy,30,40,55,40,55,60,280,False,6,112,56
+308,medicham,3,"fighting, psychic",pure-power; telepathy,60,60,75,60,75,80,410,False,13,315,144
+309,electrike,3,electric,static; lightning-rod; minus,40,45,40,65,40,65,295,False,6,152,59
+310,manectric,3,electric,static; lightning-rod; minus,70,75,60,105,60,105,475,False,15,402,166
+311,plusle,3,electric,plus; lightning-rod,60,50,40,85,75,95,405,False,4,42,142
+312,minun,3,electric,minus; volt-absorb,60,40,50,75,85,95,405,False,4,42,142
+313,volbeat,3,bug,illuminate; swarm; prankster,65,73,75,47,85,85,430,False,7,177,151
+314,illumise,3,bug,oblivious; tinted-lens; prankster,65,47,75,73,85,85,430,False,6,177,151
+315,roselia,3,"grass, poison",natural-cure; poison-point; leaf-guard,50,60,45,100,80,65,400,False,3,20,140
+316,gulpin,3,poison,liquid-ooze; sticky-hold; gluttony,70,43,53,43,53,40,302,False,4,103,60
+317,swalot,3,poison,liquid-ooze; sticky-hold; gluttony,100,73,83,73,83,55,467,False,17,800,163
+318,carvanha,3,"water, dark",rough-skin; speed-boost,45,90,20,65,20,65,305,False,8,208,61
+319,sharpedo,3,"water, dark",rough-skin; speed-boost,70,120,40,95,40,95,460,False,18,888,161
+320,wailmer,3,water,water-veil; oblivious; pressure,130,70,35,70,35,60,400,False,20,1300,80
+321,wailord,3,water,water-veil; oblivious; pressure,170,90,45,90,45,60,500,False,145,3980,175
+322,numel,3,"fire, ground",oblivious; simple; own-tempo,60,60,40,65,45,35,305,False,7,240,61
+323,camerupt,3,"fire, ground",magma-armor; solid-rock; anger-point,70,100,70,105,75,40,460,False,19,2200,161
+324,torkoal,3,fire,white-smoke; drought; shell-armor,70,85,140,85,70,20,470,False,5,804,165
+325,spoink,3,psychic,thick-fat; own-tempo; gluttony,60,25,35,70,80,60,330,False,7,306,66
+326,grumpig,3,psychic,thick-fat; own-tempo; gluttony,80,45,65,90,110,80,470,False,9,715,165
+327,spinda,3,normal,own-tempo; tangled-feet; contrary,60,60,60,60,60,60,360,False,11,50,126
+328,trapinch,3,ground,hyper-cutter; arena-trap; sheer-force,45,100,45,45,45,10,290,False,7,150,58
+329,vibrava,3,"ground, dragon",levitate,50,70,50,50,50,70,340,False,11,153,119
+330,flygon,3,"ground, dragon",levitate,80,100,80,80,80,100,520,False,20,820,234
+331,cacnea,3,grass,sand-veil; water-absorb,50,85,40,85,40,35,335,False,4,513,67
+332,cacturne,3,"grass, dark",sand-veil; water-absorb,70,115,60,115,60,55,475,False,13,774,166
+333,swablu,3,"normal, flying",natural-cure; cloud-nine,45,40,60,40,75,50,310,False,4,12,62
+334,altaria,3,"dragon, flying",natural-cure; cloud-nine,75,70,90,70,105,80,490,False,11,206,172
+335,zangoose,3,normal,immunity; toxic-boost,73,115,60,60,60,90,458,False,13,403,160
+336,seviper,3,poison,shed-skin; infiltrator,73,100,60,100,60,65,458,False,27,525,160
+337,lunatone,3,"rock, psychic",levitate,90,55,65,95,85,70,460,False,10,1680,161
+338,solrock,3,"rock, psychic",levitate,90,95,85,55,65,70,460,False,12,1540,161
+339,barboach,3,"water, ground",oblivious; anticipation; hydration,50,48,43,46,41,60,288,False,4,19,58
+340,whiscash,3,"water, ground",oblivious; anticipation; hydration,110,78,73,76,71,60,468,False,9,236,164
+341,corphish,3,water,hyper-cutter; shell-armor; adaptability,43,80,65,50,35,35,308,False,6,115,62
+342,crawdaunt,3,"water, dark",hyper-cutter; shell-armor; adaptability,63,120,85,90,55,55,468,False,11,328,164
+343,baltoy,3,"ground, psychic",levitate,40,40,55,40,70,55,300,False,5,215,60
+344,claydol,3,"ground, psychic",levitate,60,70,105,70,120,75,500,False,15,1080,175
+345,lileep,3,"rock, grass",suction-cups; storm-drain,66,41,77,61,87,23,355,False,10,238,71
+346,cradily,3,"rock, grass",suction-cups; storm-drain,86,81,97,81,107,43,495,False,15,604,173
+347,anorith,3,"rock, bug",battle-armor; swift-swim,45,95,50,40,50,75,355,False,7,125,71
+348,armaldo,3,"rock, bug",battle-armor; swift-swim,75,125,100,70,80,45,495,False,15,682,173
+349,feebas,3,water,swift-swim; oblivious; adaptability,20,15,20,10,55,80,200,False,6,74,40
+350,milotic,3,water,marvel-scale; competitive; cute-charm,95,60,79,100,125,81,540,False,62,1620,189
+351,castform,3,normal,forecast,70,70,70,70,70,70,420,False,3,8,147
+352,kecleon,3,normal,color-change; protean,60,90,70,60,120,40,440,False,10,220,154
+353,shuppet,3,ghost,insomnia; frisk; cursed-body,44,75,35,63,33,45,295,False,6,23,59
+354,banette,3,ghost,insomnia; frisk; cursed-body,64,115,65,83,63,65,455,False,11,125,159
+355,duskull,3,ghost,levitate; frisk,20,40,90,30,90,25,295,False,8,150,59
+356,dusclops,3,ghost,pressure; frisk,40,70,130,60,130,25,455,False,16,306,159
+357,tropius,3,"grass, flying",chlorophyll; solar-power; harvest,99,68,83,72,87,51,460,False,20,1000,161
+358,chimecho,3,psychic,levitate,75,50,80,95,90,65,455,False,6,10,159
+359,absol,3,dark,pressure; super-luck; justified,65,130,60,75,60,75,465,False,12,470,163
+360,wynaut,3,psychic,shadow-tag; telepathy,95,23,48,23,48,23,260,False,6,140,52
+361,snorunt,3,ice,inner-focus; ice-body; moody,50,50,50,50,50,50,300,False,7,168,60
+362,glalie,3,ice,inner-focus; ice-body; moody,80,80,80,80,80,80,480,False,15,2565,168
+363,spheal,3,"ice, water",thick-fat; ice-body; oblivious,70,40,50,55,50,25,290,False,8,395,58
+364,sealeo,3,"ice, water",thick-fat; ice-body; oblivious,90,60,70,75,70,45,410,False,11,876,144
+365,walrein,3,"ice, water",thick-fat; ice-body; oblivious,110,80,90,95,90,65,530,False,14,1506,239
+366,clamperl,3,water,shell-armor; rattled,35,64,85,74,55,32,345,False,4,525,69
+367,huntail,3,water,swift-swim; water-veil,55,104,105,94,75,52,485,False,17,270,170
+368,gorebyss,3,water,swift-swim; hydration,55,84,105,114,75,52,485,False,18,226,170
+369,relicanth,3,"water, rock",swift-swim; rock-head; sturdy,100,90,130,45,65,55,485,False,10,234,170
+370,luvdisc,3,water,swift-swim; hydration,43,30,55,40,65,97,330,False,6,87,116
+371,bagon,3,dragon,rock-head; sheer-force,45,75,60,40,30,50,300,False,6,421,60
+372,shelgon,3,dragon,rock-head; overcoat,65,95,100,60,50,50,420,False,11,1105,147
+373,salamence,3,"dragon, flying",intimidate; moxie,95,135,80,110,80,100,600,False,15,1026,270
+374,beldum,3,"steel, psychic",clear-body; light-metal,40,55,80,35,60,30,300,False,6,952,60
+375,metang,3,"steel, psychic",clear-body; light-metal,60,75,100,55,80,50,420,False,12,2025,147
+376,metagross,3,"steel, psychic",clear-body; light-metal,80,135,130,95,90,70,600,False,16,5500,270
+377,regirock,3,rock,clear-body; sturdy,80,100,200,50,100,50,580,True,17,2300,261
+378,regice,3,ice,clear-body; ice-body,80,50,100,100,200,50,580,True,18,1750,261
+379,registeel,3,steel,clear-body; light-metal,80,75,150,75,150,50,580,True,19,2050,261
+380,latias,3,"dragon, psychic",levitate,80,80,90,110,130,110,600,True,14,400,270
+381,latios,3,"dragon, psychic",levitate,80,90,80,130,110,110,600,True,20,600,270
+382,kyogre,3,water,drizzle,100,100,90,150,140,90,670,True,45,3520,302
+383,groudon,3,ground,drought,100,150,140,100,90,90,670,True,35,9500,302
+384,rayquaza,3,"dragon, flying",air-lock,105,150,90,150,90,95,680,True,70,2065,306
+385,jirachi,3,"steel, psychic",serene-grace,100,100,100,100,100,100,600,False,3,11,270
+386,deoxys-normal,3,psychic,pressure,50,150,50,150,50,150,600,False,17,608,270
+387,turtwig,4,grass,overgrow; shell-armor,55,68,64,45,55,31,318,False,4,102,64
+388,grotle,4,grass,overgrow; shell-armor,75,89,85,55,65,36,405,False,11,970,142
+389,torterra,4,"grass, ground",overgrow; shell-armor,95,109,105,75,85,56,525,False,22,3100,236
+390,chimchar,4,fire,blaze; iron-fist,44,58,44,58,44,61,309,False,5,62,62
+391,monferno,4,"fire, fighting",blaze; iron-fist,64,78,52,78,52,81,405,False,9,220,142
+392,infernape,4,"fire, fighting",blaze; iron-fist,76,104,71,104,71,108,534,False,12,550,240
+393,piplup,4,water,torrent; competitive,53,51,53,61,56,40,314,False,4,52,63
+394,prinplup,4,water,torrent; competitive,64,66,68,81,76,50,405,False,8,230,142
+395,empoleon,4,"water, steel",torrent; competitive,84,86,88,111,101,60,530,False,17,845,239
+396,starly,4,"normal, flying",keen-eye; reckless,40,55,30,30,30,60,245,False,3,20,49
+397,staravia,4,"normal, flying",intimidate; reckless,55,75,50,40,40,80,340,False,6,155,119
+398,staraptor,4,"normal, flying",intimidate; reckless,85,120,70,50,60,100,485,False,12,249,218
+399,bidoof,4,normal,simple; unaware; moody,59,45,40,35,40,31,250,False,5,200,50
+400,bibarel,4,"normal, water",simple; unaware; moody,79,85,60,55,60,71,410,False,10,315,144
+401,kricketot,4,bug,shed-skin; run-away,37,25,41,25,41,25,194,False,3,22,39
+402,kricketune,4,bug,swarm; technician,77,85,51,55,51,65,384,False,10,255,134
+403,shinx,4,electric,rivalry; intimidate; guts,45,65,34,40,34,45,263,False,5,95,53
+404,luxio,4,electric,rivalry; intimidate; guts,60,85,49,60,49,60,363,False,9,305,127
+405,luxray,4,electric,rivalry; intimidate; guts,80,120,79,95,79,70,523,False,14,420,235
+406,budew,4,"grass, poison",natural-cure; poison-point; leaf-guard,40,30,35,50,70,55,280,False,2,12,56
+407,roserade,4,"grass, poison",natural-cure; poison-point; technician,60,70,65,125,105,90,515,False,9,145,232
+408,cranidos,4,rock,mold-breaker; sheer-force,67,125,40,30,30,58,350,False,9,315,70
+409,rampardos,4,rock,mold-breaker; sheer-force,97,165,60,65,50,58,495,False,16,1025,173
+410,shieldon,4,"rock, steel",sturdy; soundproof,30,42,118,42,88,30,350,False,5,570,70
+411,bastiodon,4,"rock, steel",sturdy; soundproof,60,52,168,47,138,30,495,False,13,1495,173
+412,burmy,4,bug,shed-skin; overcoat,40,29,45,29,45,36,224,False,2,34,45
+413,wormadam-plant,4,"bug, grass",anticipation; overcoat,60,59,85,79,105,36,424,False,5,65,148
+414,mothim,4,"bug, flying",swarm; tinted-lens,70,94,50,94,50,66,424,False,9,233,148
+415,combee,4,"bug, flying",honey-gather; hustle,30,30,42,30,42,70,244,False,3,55,49
+416,vespiquen,4,"bug, flying",pressure; unnerve,70,80,102,80,102,40,474,False,12,385,166
+417,pachirisu,4,electric,run-away; pickup; volt-absorb,60,45,70,45,90,95,405,False,4,39,142
+418,buizel,4,water,swift-swim; water-veil,55,65,35,60,30,85,330,False,7,295,66
+419,floatzel,4,water,swift-swim; water-veil,85,105,55,85,50,115,495,False,11,335,173
+420,cherubi,4,grass,chlorophyll,45,35,45,62,53,35,275,False,4,33,55
+421,cherrim,4,grass,flower-gift,70,60,70,87,78,85,450,False,5,93,158
+422,shellos,4,water,sticky-hold; storm-drain; sand-force,76,48,48,57,62,34,325,False,3,63,65
+423,gastrodon,4,"water, ground",sticky-hold; storm-drain; sand-force,111,83,68,92,82,39,475,False,9,299,166
+424,ambipom,4,normal,technician; pickup; skill-link,75,100,66,60,66,115,482,False,12,203,169
+425,drifloon,4,"ghost, flying",aftermath; unburden; flare-boost,90,50,34,60,44,70,348,False,4,12,70
+426,drifblim,4,"ghost, flying",aftermath; unburden; flare-boost,150,80,44,90,54,80,498,False,12,150,174
+427,buneary,4,normal,run-away; klutz; limber,55,66,44,44,56,85,350,False,4,55,70
+428,lopunny,4,normal,cute-charm; klutz; limber,65,76,84,54,96,105,480,False,12,333,168
+429,mismagius,4,ghost,levitate,60,60,60,105,105,105,495,False,9,44,173
+430,honchkrow,4,"dark, flying",insomnia; super-luck; moxie,100,125,52,105,52,71,505,False,9,273,177
+431,glameow,4,normal,limber; own-tempo; keen-eye,49,55,42,42,37,85,310,False,5,39,62
+432,purugly,4,normal,thick-fat; own-tempo; defiant,71,82,64,64,59,112,452,False,10,438,158
+433,chingling,4,psychic,levitate,45,30,50,65,50,45,285,False,2,6,57
+434,stunky,4,"poison, dark",stench; aftermath; keen-eye,63,63,47,41,41,74,329,False,4,192,66
+435,skuntank,4,"poison, dark",stench; aftermath; keen-eye,103,93,67,71,61,84,479,False,10,380,168
+436,bronzor,4,"steel, psychic",levitate; heatproof; heavy-metal,57,24,86,24,86,23,300,False,5,605,60
+437,bronzong,4,"steel, psychic",levitate; heatproof; heavy-metal,67,89,116,79,116,33,500,False,13,1870,175
+438,bonsly,4,rock,sturdy; rock-head; rattled,50,80,95,10,45,10,290,False,5,150,58
+439,mime-jr,4,"psychic, fairy",soundproof; filter; technician,20,25,45,70,90,60,310,False,6,130,62
+440,happiny,4,normal,natural-cure; serene-grace; friend-guard,100,5,5,15,65,30,220,False,6,244,110
+441,chatot,4,"normal, flying",keen-eye; tangled-feet; big-pecks,76,65,45,92,42,91,411,False,5,19,144
+442,spiritomb,4,"ghost, dark",pressure; infiltrator,50,92,108,92,108,35,485,False,10,1080,170
+443,gible,4,"dragon, ground",sand-veil; rough-skin,58,70,45,40,45,42,300,False,7,205,60
+444,gabite,4,"dragon, ground",sand-veil; rough-skin,68,90,65,50,55,82,410,False,14,560,144
+445,garchomp,4,"dragon, ground",sand-veil; rough-skin,108,130,95,80,85,102,600,False,19,950,270
+446,munchlax,4,normal,pickup; thick-fat; gluttony,135,85,40,40,85,5,390,False,6,1050,78
+447,riolu,4,fighting,steadfast; inner-focus; prankster,40,70,40,35,40,60,285,False,7,202,57
+448,lucario,4,"fighting, steel",steadfast; inner-focus; justified,70,110,70,115,70,90,525,False,12,540,184
+449,hippopotas,4,ground,sand-stream; sand-force,68,72,78,38,42,32,330,False,8,495,66
+450,hippowdon,4,ground,sand-stream; sand-force,108,112,118,68,72,47,525,False,20,3000,184
+451,skorupi,4,"poison, bug",battle-armor; sniper; keen-eye,40,50,90,30,55,65,330,False,8,120,66
+452,drapion,4,"poison, dark",battle-armor; sniper; keen-eye,70,90,110,60,75,95,500,False,13,615,175
+453,croagunk,4,"poison, fighting",anticipation; dry-skin; poison-touch,48,61,40,61,40,50,300,False,7,230,60
+454,toxicroak,4,"poison, fighting",anticipation; dry-skin; poison-touch,83,106,65,86,65,85,490,False,13,444,172
+455,carnivine,4,grass,levitate,74,100,72,90,72,46,454,False,14,270,159
+456,finneon,4,water,swift-swim; storm-drain; water-veil,49,49,56,49,61,66,330,False,4,70,66
+457,lumineon,4,water,swift-swim; storm-drain; water-veil,69,69,76,69,86,91,460,False,12,240,161
+458,mantyke,4,"water, flying",swift-swim; water-absorb; water-veil,45,20,50,60,120,50,345,False,10,650,69
+459,snover,4,"grass, ice",snow-warning; soundproof,60,62,50,62,60,40,334,False,10,505,67
+460,abomasnow,4,"grass, ice",snow-warning; soundproof,90,92,75,92,85,60,494,False,22,1355,173
+461,weavile,4,"dark, ice",pressure; pickpocket,70,120,65,45,85,125,510,False,11,340,179
+462,magnezone,4,"electric, steel",magnet-pull; sturdy; analytic,70,70,115,130,90,60,535,False,12,1800,241
+463,lickilicky,4,normal,own-tempo; oblivious; cloud-nine,110,85,95,80,95,50,515,False,17,1400,180
+464,rhyperior,4,"ground, rock",lightning-rod; solid-rock; reckless,115,140,130,55,55,40,535,False,24,2828,241
+465,tangrowth,4,grass,chlorophyll; leaf-guard; regenerator,100,100,125,110,50,50,535,False,20,1286,187
+466,electivire,4,electric,motor-drive; vital-spirit,75,123,67,95,85,95,540,False,18,1386,243
+467,magmortar,4,fire,flame-body; vital-spirit,75,95,67,125,95,83,540,False,16,680,243
+468,togekiss,4,"fairy, flying",hustle; serene-grace; super-luck,85,50,95,120,115,80,545,False,15,380,245
+469,yanmega,4,"bug, flying",speed-boost; tinted-lens; frisk,86,76,86,116,56,95,515,False,19,515,180
+470,leafeon,4,grass,leaf-guard; chlorophyll,65,110,130,60,65,95,525,False,10,255,184
+471,glaceon,4,ice,snow-cloak; ice-body,65,60,110,130,95,65,525,False,8,259,184
+472,gliscor,4,"ground, flying",hyper-cutter; sand-veil; poison-heal,75,95,125,45,75,95,510,False,20,425,179
+473,mamoswine,4,"ice, ground",oblivious; snow-cloak; thick-fat,110,130,80,70,60,80,530,False,25,2910,239
+474,porygon-z,4,normal,adaptability; download; analytic,85,80,70,135,75,90,535,False,9,340,241
+475,gallade,4,"psychic, fighting",steadfast; sharpness; justified,68,125,65,65,115,80,518,False,16,520,233
+476,probopass,4,"rock, steel",sturdy; magnet-pull; sand-force,60,55,145,75,150,40,525,False,14,3400,184
+477,dusknoir,4,ghost,pressure; frisk,45,100,135,65,135,45,525,False,22,1066,236
+478,froslass,4,"ice, ghost",snow-cloak; cursed-body,70,80,70,80,70,110,480,False,13,266,168
+479,rotom,4,"electric, ghost",levitate,50,50,77,95,77,91,440,False,3,3,154
+480,uxie,4,psychic,levitate,75,75,130,75,130,95,580,True,3,3,261
+481,mesprit,4,psychic,levitate,80,105,105,105,105,80,580,True,3,3,261
+482,azelf,4,psychic,levitate,75,125,70,125,70,115,580,True,3,3,261
+483,dialga,4,"steel, dragon",pressure; telepathy,100,120,120,150,100,90,680,True,54,6830,306
+484,palkia,4,"water, dragon",pressure; telepathy,90,120,100,150,120,100,680,True,42,3360,306
+485,heatran,4,"fire, steel",flash-fire; flame-body,91,90,106,130,106,77,600,True,17,4300,270
+486,regigigas,4,normal,slow-start,110,160,110,80,110,100,670,True,37,4200,302
+487,giratina-altered,4,"ghost, dragon",pressure; telepathy,150,100,120,100,120,90,680,True,45,7500,306
+488,cresselia,4,psychic,levitate,120,70,110,75,120,85,580,True,15,856,270
+489,phione,4,water,hydration,80,80,80,80,80,80,480,False,4,31,216
+490,manaphy,4,water,hydration,100,100,100,100,100,100,600,False,3,14,270
+491,darkrai,4,dark,bad-dreams,70,90,90,135,90,125,600,False,15,505,270
+492,shaymin-land,4,grass,natural-cure,100,100,100,100,100,100,600,False,2,21,270
+493,arceus,4,normal,multitype,120,120,120,120,120,120,720,False,32,3200,324
+494,victini,5,"psychic, fire",victory-star,100,100,100,100,100,100,600,False,4,40,270
+495,snivy,5,grass,overgrow; contrary,45,45,55,45,55,63,308,False,6,81,62
+496,servine,5,grass,overgrow; contrary,60,60,75,60,75,83,413,False,8,160,145
+497,serperior,5,grass,overgrow; contrary,75,75,95,75,95,113,528,False,33,630,238
+498,tepig,5,fire,blaze; thick-fat,65,63,45,45,45,45,308,False,5,99,62
+499,pignite,5,"fire, fighting",blaze; thick-fat,90,93,55,70,55,55,418,False,10,555,146
+500,emboar,5,"fire, fighting",blaze; reckless,110,123,65,100,65,65,528,False,16,1500,238
+501,oshawott,5,water,torrent; shell-armor,55,55,45,63,45,45,308,False,5,59,62
+502,dewott,5,water,torrent; shell-armor,75,75,60,83,60,60,413,False,8,245,145
+503,samurott,5,water,torrent; shell-armor,95,100,85,108,70,70,528,False,15,946,238
+504,patrat,5,normal,run-away; keen-eye; analytic,45,55,39,35,39,42,255,False,5,116,51
+505,watchog,5,normal,illuminate; keen-eye; analytic,60,85,69,60,69,77,420,False,11,270,147
+506,lillipup,5,normal,vital-spirit; pickup; run-away,45,60,45,25,45,55,275,False,4,41,55
+507,herdier,5,normal,intimidate; sand-rush; scrappy,65,80,65,35,65,60,370,False,9,147,130
+508,stoutland,5,normal,intimidate; sand-rush; scrappy,85,110,90,45,90,80,500,False,12,610,225
+509,purrloin,5,dark,limber; unburden; prankster,41,50,37,50,37,66,281,False,4,101,56
+510,liepard,5,dark,limber; unburden; prankster,64,88,50,88,50,106,446,False,11,375,156
+511,pansage,5,grass,gluttony; overgrow,50,53,48,53,48,64,316,False,6,105,63
+512,simisage,5,grass,gluttony; overgrow,75,98,63,98,63,101,498,False,11,305,174
+513,pansear,5,fire,gluttony; blaze,50,53,48,53,48,64,316,False,6,110,63
+514,simisear,5,fire,gluttony; blaze,75,98,63,98,63,101,498,False,10,280,174
+515,panpour,5,water,gluttony; torrent,50,53,48,53,48,64,316,False,6,135,63
+516,simipour,5,water,gluttony; torrent,75,98,63,98,63,101,498,False,10,290,174
+517,munna,5,psychic,forewarn; synchronize; telepathy,76,25,45,67,55,24,292,False,6,233,58
+518,musharna,5,psychic,forewarn; synchronize; telepathy,116,55,85,107,95,29,487,False,11,605,170
+519,pidove,5,"normal, flying",big-pecks; super-luck; rivalry,50,55,50,36,30,43,264,False,3,21,53
+520,tranquill,5,"normal, flying",big-pecks; super-luck; rivalry,62,77,62,50,42,65,358,False,6,150,125
+521,unfezant,5,"normal, flying",big-pecks; super-luck; rivalry,80,115,80,65,55,93,488,False,12,290,220
+522,blitzle,5,electric,lightning-rod; motor-drive; sap-sipper,45,60,32,50,32,76,295,False,8,298,59
+523,zebstrika,5,electric,lightning-rod; motor-drive; sap-sipper,75,100,63,80,63,116,497,False,16,795,174
+524,roggenrola,5,rock,sturdy; weak-armor; sand-force,55,75,85,25,25,15,280,False,4,180,56
+525,boldore,5,rock,sturdy; weak-armor; sand-force,70,105,105,50,40,20,390,False,9,1020,137
+526,gigalith,5,rock,sturdy; sand-stream; sand-force,85,135,130,60,80,25,515,False,17,2600,232
+527,woobat,5,"psychic, flying",unaware; klutz; simple,65,45,43,55,43,72,323,False,4,21,65
+528,swoobat,5,"psychic, flying",unaware; klutz; simple,67,57,55,77,55,114,425,False,9,105,149
+529,drilbur,5,ground,sand-rush; sand-force; mold-breaker,60,85,40,30,45,68,328,False,3,85,66
+530,excadrill,5,"ground, steel",sand-rush; sand-force; mold-breaker,110,135,60,50,65,88,508,False,7,404,178
+531,audino,5,normal,healer; regenerator; klutz,103,60,86,60,86,50,445,False,11,310,390
+532,timburr,5,fighting,guts; sheer-force; iron-fist,75,80,55,25,35,35,305,False,6,125,61
+533,gurdurr,5,fighting,guts; sheer-force; iron-fist,85,105,85,40,50,40,405,False,12,400,142
+534,conkeldurr,5,fighting,guts; sheer-force; iron-fist,105,140,95,55,65,45,505,False,14,870,227
+535,tympole,5,water,swift-swim; hydration; water-absorb,50,50,40,50,40,64,294,False,5,45,59
+536,palpitoad,5,"water, ground",swift-swim; hydration; water-absorb,75,65,55,65,55,69,384,False,8,170,134
+537,seismitoad,5,"water, ground",swift-swim; poison-touch; water-absorb,105,95,75,85,75,74,509,False,15,620,229
+538,throh,5,fighting,guts; inner-focus; mold-breaker,120,100,85,30,85,45,465,False,13,555,163
+539,sawk,5,fighting,sturdy; inner-focus; mold-breaker,75,125,75,30,75,85,465,False,14,510,163
+540,sewaddle,5,"bug, grass",swarm; chlorophyll; overcoat,45,53,70,40,60,42,310,False,3,25,62
+541,swadloon,5,"bug, grass",leaf-guard; chlorophyll; overcoat,55,63,90,50,80,42,380,False,5,73,133
+542,leavanny,5,"bug, grass",swarm; chlorophyll; overcoat,75,103,80,70,80,92,500,False,12,205,225
+543,venipede,5,"bug, poison",poison-point; swarm; speed-boost,30,45,59,30,39,57,260,False,4,53,52
+544,whirlipede,5,"bug, poison",poison-point; swarm; speed-boost,40,55,99,40,79,47,360,False,12,585,126
+545,scolipede,5,"bug, poison",poison-point; swarm; speed-boost,60,100,89,55,69,112,485,False,25,2005,218
+546,cottonee,5,"grass, fairy",prankster; infiltrator; chlorophyll,40,27,60,37,50,66,280,False,3,6,56
+547,whimsicott,5,"grass, fairy",prankster; infiltrator; chlorophyll,60,67,85,77,75,116,480,False,7,66,168
+548,petilil,5,grass,chlorophyll; own-tempo; leaf-guard,45,35,50,70,50,30,280,False,5,66,56
+549,lilligant,5,grass,chlorophyll; own-tempo; leaf-guard,70,60,75,110,75,90,480,False,11,163,168
+550,basculin-red-striped,5,water,reckless; adaptability; mold-breaker,70,92,65,80,55,98,460,False,10,180,161
+551,sandile,5,"ground, dark",intimidate; moxie; anger-point,50,72,35,35,35,65,292,False,7,152,58
+552,krokorok,5,"ground, dark",intimidate; moxie; anger-point,60,82,45,45,45,74,351,False,10,334,123
+553,krookodile,5,"ground, dark",intimidate; moxie; anger-point,95,117,80,65,70,92,519,False,15,963,234
+554,darumaka,5,fire,hustle; inner-focus,70,90,45,15,45,50,315,False,6,375,63
+555,darmanitan-standard,5,fire,sheer-force; zen-mode,105,140,55,30,55,95,480,False,13,929,168
+556,maractus,5,grass,water-absorb; chlorophyll; storm-drain,75,86,67,106,67,60,461,False,10,280,161
+557,dwebble,5,"bug, rock",sturdy; shell-armor; weak-armor,50,65,85,35,35,55,325,False,3,145,65
+558,crustle,5,"bug, rock",sturdy; shell-armor; weak-armor,70,105,125,65,75,45,485,False,14,2000,170
+559,scraggy,5,"dark, fighting",shed-skin; moxie; intimidate,50,75,70,35,70,48,348,False,6,118,70
+560,scrafty,5,"dark, fighting",shed-skin; moxie; intimidate,65,90,115,45,115,58,488,False,11,300,171
+561,sigilyph,5,"psychic, flying",wonder-skin; magic-guard; tinted-lens,72,58,80,103,80,97,490,False,14,140,172
+562,yamask,5,ghost,mummy,38,30,85,55,65,30,303,False,5,15,61
+563,cofagrigus,5,ghost,mummy,58,50,145,95,105,30,483,False,17,765,169
+564,tirtouga,5,"water, rock",solid-rock; sturdy; swift-swim,54,78,103,53,45,22,355,False,7,165,71
+565,carracosta,5,"water, rock",solid-rock; sturdy; swift-swim,74,108,133,83,65,32,495,False,12,810,173
+566,archen,5,"rock, flying",defeatist,55,112,45,74,45,70,401,False,5,95,71
+567,archeops,5,"rock, flying",defeatist,75,140,65,112,65,110,567,False,14,320,177
+568,trubbish,5,poison,stench; sticky-hold; aftermath,50,50,62,40,62,65,329,False,6,310,66
+569,garbodor,5,poison,stench; weak-armor; aftermath,80,95,82,60,82,75,474,False,19,1073,166
+570,zorua,5,dark,illusion,40,65,40,80,40,65,330,False,7,125,66
+571,zoroark,5,dark,illusion,60,105,60,120,60,105,510,False,16,811,179
+572,minccino,5,normal,cute-charm; technician; skill-link,55,50,40,40,40,75,300,False,4,58,60
+573,cinccino,5,normal,cute-charm; technician; skill-link,75,95,60,65,60,115,470,False,5,75,165
+574,gothita,5,psychic,frisk; competitive; shadow-tag,45,30,50,55,65,45,290,False,4,58,58
+575,gothorita,5,psychic,frisk; competitive; shadow-tag,60,45,70,75,85,55,390,False,7,180,137
+576,gothitelle,5,psychic,frisk; competitive; shadow-tag,70,55,95,95,110,65,490,False,15,440,221
+577,solosis,5,psychic,overcoat; magic-guard; regenerator,45,30,40,105,50,20,290,False,3,10,58
+578,duosion,5,psychic,overcoat; magic-guard; regenerator,65,40,50,125,60,30,370,False,6,80,130
+579,reuniclus,5,psychic,overcoat; magic-guard; regenerator,110,65,75,125,85,30,490,False,10,201,221
+580,ducklett,5,"water, flying",keen-eye; big-pecks; hydration,62,44,50,44,50,55,305,False,5,55,61
+581,swanna,5,"water, flying",keen-eye; big-pecks; hydration,75,87,63,87,63,98,473,False,13,242,166
+582,vanillite,5,ice,ice-body; snow-cloak; weak-armor,36,50,50,65,60,44,305,False,4,57,61
+583,vanillish,5,ice,ice-body; snow-cloak; weak-armor,51,65,65,80,75,59,395,False,11,410,138
+584,vanilluxe,5,ice,ice-body; snow-warning; weak-armor,71,95,85,110,95,79,535,False,13,575,241
+585,deerling,5,"normal, grass",chlorophyll; sap-sipper; serene-grace,60,60,50,40,50,75,335,False,6,195,67
+586,sawsbuck,5,"normal, grass",chlorophyll; sap-sipper; serene-grace,80,100,70,60,70,95,475,False,19,925,166
+587,emolga,5,"electric, flying",static; motor-drive,55,75,60,75,60,103,428,False,4,50,150
+588,karrablast,5,bug,swarm; shed-skin; no-guard,50,75,45,40,45,60,315,False,5,59,63
+589,escavalier,5,"bug, steel",swarm; shell-armor; overcoat,70,135,105,60,105,20,495,False,10,330,173
+590,foongus,5,"grass, poison",effect-spore; regenerator,69,55,45,55,55,15,294,False,2,10,59
+591,amoonguss,5,"grass, poison",effect-spore; regenerator,114,85,70,85,80,30,464,False,6,105,162
+592,frillish,5,"water, ghost",water-absorb; cursed-body; damp,55,40,50,65,85,40,335,False,12,330,67
+593,jellicent,5,"water, ghost",water-absorb; cursed-body; damp,100,60,70,85,105,60,480,False,22,1350,168
+594,alomomola,5,water,healer; hydration; regenerator,165,75,80,40,45,65,470,False,12,316,165
+595,joltik,5,"bug, electric",compound-eyes; unnerve; swarm,50,47,50,57,50,65,319,False,1,6,64
+596,galvantula,5,"bug, electric",compound-eyes; unnerve; swarm,70,77,60,97,60,108,472,False,8,143,165
+597,ferroseed,5,"grass, steel",iron-barbs,44,50,91,24,86,10,305,False,6,188,61
+598,ferrothorn,5,"grass, steel",iron-barbs; anticipation,74,94,131,54,116,20,489,False,10,1100,171
+599,klink,5,steel,plus; minus; clear-body,40,55,70,45,60,30,300,False,3,210,60
+600,klang,5,steel,plus; minus; clear-body,60,80,95,70,85,50,440,False,6,510,154
+601,klinklang,5,steel,plus; minus; clear-body,60,100,115,70,85,90,520,False,6,810,234
+602,tynamo,5,electric,levitate,35,55,40,45,40,60,275,False,2,3,55
+603,eelektrik,5,electric,levitate,65,85,70,75,70,40,405,False,12,220,142
+604,eelektross,5,electric,levitate,85,115,80,105,80,50,515,False,21,805,232
+605,elgyem,5,psychic,telepathy; synchronize; analytic,55,55,55,85,55,30,335,False,5,90,67
+606,beheeyem,5,psychic,telepathy; synchronize; analytic,75,75,75,125,95,40,485,False,10,345,170
+607,litwick,5,"ghost, fire",flash-fire; flame-body; infiltrator,50,30,55,65,55,20,275,False,3,31,55
+608,lampent,5,"ghost, fire",flash-fire; flame-body; infiltrator,60,40,60,95,60,55,370,False,6,130,130
+609,chandelure,5,"ghost, fire",flash-fire; flame-body; infiltrator,60,55,90,145,90,80,520,False,10,343,234
+610,axew,5,dragon,rivalry; mold-breaker; unnerve,46,87,60,30,40,57,320,False,6,180,64
+611,fraxure,5,dragon,rivalry; mold-breaker; unnerve,66,117,70,40,50,67,410,False,10,360,144
+612,haxorus,5,dragon,rivalry; mold-breaker; unnerve,76,147,90,60,70,97,540,False,18,1055,243
+613,cubchoo,5,ice,snow-cloak; slush-rush; rattled,55,70,40,60,40,40,305,False,5,85,61
+614,beartic,5,ice,snow-cloak; slush-rush; swift-swim,95,130,80,70,80,50,505,False,26,2600,177
+615,cryogonal,5,ice,levitate,80,50,50,95,135,105,515,False,11,1480,180
+616,shelmet,5,bug,hydration; shell-armor; overcoat,50,40,85,40,65,25,305,False,4,77,61
+617,accelgor,5,bug,hydration; sticky-hold; unburden,80,70,40,100,60,145,495,False,8,253,173
+618,stunfisk,5,"ground, electric",static; limber; sand-veil,109,66,84,81,99,32,471,False,7,110,165
+619,mienfoo,5,fighting,inner-focus; regenerator; reckless,45,85,50,55,50,65,350,False,9,200,70
+620,mienshao,5,fighting,inner-focus; regenerator; reckless,65,125,60,95,60,105,510,False,14,355,179
+621,druddigon,5,dragon,rough-skin; sheer-force; mold-breaker,77,120,90,60,90,48,485,False,16,1390,170
+622,golett,5,"ground, ghost",iron-fist; klutz; no-guard,59,74,50,35,50,35,303,False,10,920,61
+623,golurk,5,"ground, ghost",iron-fist; klutz; no-guard,89,124,80,55,80,55,483,False,28,3300,169
+624,pawniard,5,"dark, steel",defiant; inner-focus; pressure,45,85,70,40,40,60,340,False,5,102,68
+625,bisharp,5,"dark, steel",defiant; inner-focus; pressure,65,125,100,60,70,70,490,False,16,700,172
+626,bouffalant,5,normal,reckless; sap-sipper; soundproof,95,110,95,40,95,55,490,False,16,946,172
+627,rufflet,5,"normal, flying",keen-eye; sheer-force; hustle,70,83,50,37,50,60,350,False,5,105,70
+628,braviary,5,"normal, flying",keen-eye; sheer-force; defiant,100,123,75,57,75,80,510,False,15,410,179
+629,vullaby,5,"dark, flying",big-pecks; overcoat; weak-armor,70,55,75,45,65,60,370,False,5,90,74
+630,mandibuzz,5,"dark, flying",big-pecks; overcoat; weak-armor,110,65,105,55,95,80,510,False,12,395,179
+631,heatmor,5,fire,gluttony; flash-fire; white-smoke,85,97,66,105,66,65,484,False,14,580,169
+632,durant,5,"bug, steel",swarm; hustle; truant,58,109,112,48,48,109,484,False,3,330,169
+633,deino,5,"dark, dragon",hustle,52,65,50,45,50,38,300,False,8,173,60
+634,zweilous,5,"dark, dragon",hustle,72,85,70,65,70,58,420,False,14,500,147
+635,hydreigon,5,"dark, dragon",levitate,92,105,90,125,90,98,600,False,18,1600,270
+636,larvesta,5,"bug, fire",flame-body; swarm,55,85,55,50,55,60,360,False,11,288,72
+637,volcarona,5,"bug, fire",flame-body; swarm,85,60,65,135,105,100,550,False,16,460,248
+638,cobalion,5,"steel, fighting",justified,91,90,129,90,72,108,580,True,21,2500,261
+639,terrakion,5,"rock, fighting",justified,91,129,90,72,90,108,580,True,19,2600,261
+640,virizion,5,"grass, fighting",justified,91,90,72,90,129,108,580,True,20,2000,261
+641,tornadus-incarnate,5,flying,prankster; defiant,79,115,70,125,80,111,580,True,15,630,261
+642,thundurus-incarnate,5,"electric, flying",prankster; defiant,79,115,70,125,80,111,580,True,15,610,261
+643,reshiram,5,"dragon, fire",turboblaze,100,120,100,150,120,90,680,True,32,3300,306
+644,zekrom,5,"dragon, electric",teravolt,100,150,120,120,100,90,680,True,29,3450,306
+645,landorus-incarnate,5,"ground, flying",sand-force; sheer-force,89,125,90,115,80,101,600,True,15,680,270
+646,kyurem,5,"dragon, ice",pressure,125,130,90,130,90,95,660,True,30,3250,297
+647,keldeo-ordinary,5,"water, fighting",justified,91,72,90,129,90,108,580,False,14,485,261
+648,meloetta-aria,5,"normal, psychic",serene-grace,100,77,77,128,128,90,600,False,6,65,270
+649,genesect,5,"bug, steel",download,71,120,95,120,95,99,600,False,15,825,270
+650,chespin,6,grass,overgrow; bulletproof,56,61,65,48,45,38,313,False,4,90,63
+651,quilladin,6,grass,overgrow; bulletproof,61,78,95,56,58,57,405,False,7,290,142
+652,chesnaught,6,"grass, fighting",overgrow; bulletproof,88,107,122,74,75,64,530,False,16,900,239
+653,fennekin,6,fire,blaze; magician,40,45,40,62,60,60,307,False,4,94,61
+654,braixen,6,fire,blaze; magician,59,59,58,90,70,73,409,False,10,145,143
+655,delphox,6,"fire, psychic",blaze; magician,75,69,72,114,100,104,534,False,15,390,240
+656,froakie,6,water,torrent; protean,41,56,40,62,44,71,314,False,3,70,63
+657,frogadier,6,water,torrent; protean,54,63,52,83,56,97,405,False,6,109,142
+658,greninja,6,"water, dark",torrent; protean,72,95,67,103,71,122,530,False,15,400,239
+659,bunnelby,6,normal,pickup; cheek-pouch; huge-power,38,36,38,32,36,57,237,False,4,50,47
+660,diggersby,6,"normal, ground",pickup; cheek-pouch; huge-power,85,56,77,50,77,78,423,False,10,424,148
+661,fletchling,6,"normal, flying",big-pecks; gale-wings,45,50,43,40,38,62,278,False,3,17,56
+662,fletchinder,6,"fire, flying",flame-body; gale-wings,62,73,55,56,52,84,382,False,7,160,134
+663,talonflame,6,"fire, flying",flame-body; gale-wings,78,81,71,74,69,126,499,False,12,245,175
+664,scatterbug,6,bug,shield-dust; compound-eyes; friend-guard,38,35,40,27,25,35,200,False,3,25,40
+665,spewpa,6,bug,shed-skin; friend-guard,45,22,60,27,30,29,213,False,3,84,75
+666,vivillon,6,"bug, flying",shield-dust; compound-eyes; friend-guard,80,52,50,90,50,89,411,False,12,170,185
+667,litleo,6,"fire, normal",rivalry; unnerve; moxie,62,50,58,73,54,72,369,False,6,135,74
+668,pyroar,6,"fire, normal",rivalry; unnerve; moxie,86,68,72,109,66,106,507,False,15,815,177
+669,flabebe,6,fairy,flower-veil; symbiosis,44,38,39,61,79,42,303,False,1,1,61
+670,floette,6,fairy,flower-veil; symbiosis,54,45,47,75,98,52,371,False,2,9,130
+671,florges,6,fairy,flower-veil; symbiosis,78,65,68,112,154,75,552,False,11,100,248
+672,skiddo,6,grass,sap-sipper; grass-pelt,66,65,48,62,57,52,350,False,9,310,70
+673,gogoat,6,grass,sap-sipper; grass-pelt,123,100,62,97,81,68,531,False,17,910,186
+674,pancham,6,fighting,iron-fist; mold-breaker; scrappy,67,82,62,46,48,43,348,False,6,80,70
+675,pangoro,6,"fighting, dark",iron-fist; mold-breaker; scrappy,95,124,78,69,71,58,495,False,21,1360,173
+676,furfrou,6,normal,fur-coat,75,80,60,65,90,102,472,False,12,280,165
+677,espurr,6,psychic,keen-eye; infiltrator; own-tempo,62,48,54,63,60,68,355,False,3,35,71
+678,meowstic-male,6,psychic,keen-eye; infiltrator; prankster,74,48,76,83,81,104,466,False,6,85,163
+679,honedge,6,"steel, ghost",no-guard,45,80,100,35,37,28,325,False,8,20,65
+680,doublade,6,"steel, ghost",no-guard,59,110,150,45,49,35,448,False,8,45,157
+681,aegislash-shield,6,"steel, ghost",stance-change,60,50,140,50,140,60,500,False,17,530,234
+682,spritzee,6,fairy,healer; aroma-veil,78,52,60,63,65,23,341,False,2,5,68
+683,aromatisse,6,fairy,healer; aroma-veil,101,72,72,99,89,29,462,False,8,155,162
+684,swirlix,6,fairy,sweet-veil; unburden,62,48,66,59,57,49,341,False,4,35,68
+685,slurpuff,6,fairy,sweet-veil; unburden,82,80,86,85,75,72,480,False,8,50,168
+686,inkay,6,"dark, psychic",contrary; suction-cups; infiltrator,53,54,53,37,46,45,288,False,4,35,58
+687,malamar,6,"dark, psychic",contrary; suction-cups; infiltrator,86,92,88,68,75,73,482,False,15,470,169
+688,binacle,6,"rock, water",tough-claws; sniper; pickpocket,42,52,67,39,56,50,306,False,5,310,61
+689,barbaracle,6,"rock, water",tough-claws; sniper; pickpocket,72,105,115,54,86,68,500,False,13,960,175
+690,skrelp,6,"poison, water",poison-point; poison-touch; adaptability,50,60,60,60,60,30,320,False,5,73,64
+691,dragalge,6,"poison, dragon",poison-point; poison-touch; adaptability,65,75,90,97,123,44,494,False,18,815,173
+692,clauncher,6,water,mega-launcher,50,53,62,58,63,44,330,False,5,83,66
+693,clawitzer,6,water,mega-launcher,71,73,88,120,89,59,500,False,13,353,100
+694,helioptile,6,"electric, normal",dry-skin; sand-veil; solar-power,44,38,33,61,43,70,289,False,5,60,58
+695,heliolisk,6,"electric, normal",dry-skin; sand-veil; solar-power,62,55,52,109,94,109,481,False,10,210,168
+696,tyrunt,6,"rock, dragon",strong-jaw; sturdy,58,89,77,45,45,48,362,False,8,260,72
+697,tyrantrum,6,"rock, dragon",strong-jaw; rock-head,82,121,119,69,59,71,521,False,25,2700,182
+698,amaura,6,"rock, ice",refrigerate; snow-warning,77,59,50,67,63,46,362,False,13,252,72
+699,aurorus,6,"rock, ice",refrigerate; snow-warning,123,77,72,99,92,58,521,False,27,2250,104
+700,sylveon,6,fairy,cute-charm; pixilate,95,65,65,110,130,60,525,False,10,235,184
+701,hawlucha,6,"fighting, flying",limber; unburden; mold-breaker,78,92,75,74,63,118,500,False,8,215,175
+702,dedenne,6,"electric, fairy",cheek-pouch; pickup; plus,67,58,57,81,67,101,431,False,2,22,151
+703,carbink,6,"rock, fairy",clear-body; sturdy,50,50,150,50,150,50,500,False,3,57,100
+704,goomy,6,dragon,sap-sipper; hydration; gooey,45,50,35,55,75,40,300,False,3,28,60
+705,sliggoo,6,dragon,sap-sipper; hydration; gooey,68,75,53,83,113,60,452,False,8,175,158
+706,goodra,6,dragon,sap-sipper; hydration; gooey,90,100,70,110,150,80,600,False,20,1505,270
+707,klefki,6,"steel, fairy",prankster; magician,57,80,91,80,87,75,470,False,2,30,165
+708,phantump,6,"ghost, grass",natural-cure; frisk; harvest,43,70,48,50,60,38,309,False,4,70,62
+709,trevenant,6,"ghost, grass",natural-cure; frisk; harvest,85,110,76,65,82,56,474,False,15,710,166
+710,pumpkaboo-average,6,"ghost, grass",pickup; frisk; insomnia,49,66,70,44,55,51,335,False,4,50,67
+711,gourgeist-average,6,"ghost, grass",pickup; frisk; insomnia,65,90,122,58,75,84,494,False,9,125,173
+712,bergmite,6,ice,own-tempo; ice-body; sturdy,55,69,85,32,35,28,304,False,10,995,61
+713,avalugg,6,ice,own-tempo; ice-body; sturdy,95,117,184,44,46,28,514,False,20,5050,180
+714,noibat,6,"flying, dragon",frisk; infiltrator; telepathy,40,30,35,45,40,55,245,False,5,80,49
+715,noivern,6,"flying, dragon",frisk; infiltrator; telepathy,85,70,80,97,80,123,535,False,15,850,187
+716,xerneas,6,fairy,fairy-aura,126,131,95,131,98,99,680,True,30,2150,306
+717,yveltal,6,"dark, flying",dark-aura,126,131,95,131,98,99,680,True,58,2030,306
+718,zygarde-50,6,"dragon, ground",aura-break,108,100,121,81,95,95,600,True,50,3050,270
+719,diancie,6,"rock, fairy",clear-body,50,100,150,100,150,50,600,False,7,88,270
+720,hoopa,6,"psychic, ghost",magician,80,110,60,150,130,70,600,False,5,90,270
+721,volcanion,6,"fire, water",water-absorb,80,110,120,130,90,70,600,False,17,1950,270
+722,rowlet,7,"grass, flying",overgrow; long-reach,68,55,55,50,50,42,320,False,3,15,64
+723,dartrix,7,"grass, flying",overgrow; long-reach,78,75,75,70,70,52,420,False,7,160,147
+724,decidueye,7,"grass, ghost",overgrow; long-reach,78,107,75,100,100,70,530,False,16,366,239
+725,litten,7,fire,blaze; intimidate,45,65,40,60,40,70,320,False,4,43,64
+726,torracat,7,fire,blaze; intimidate,65,85,50,80,50,90,420,False,7,250,147
+727,incineroar,7,"fire, dark",blaze; intimidate,95,115,90,80,90,60,530,False,18,830,239
+728,popplio,7,water,torrent; liquid-voice,50,54,54,66,56,40,320,False,4,75,64
+729,brionne,7,water,torrent; liquid-voice,60,69,69,91,81,50,420,False,6,175,147
+730,primarina,7,"water, fairy",torrent; liquid-voice,80,74,74,126,116,60,530,False,18,440,239
+731,pikipek,7,"normal, flying",keen-eye; skill-link; pickup,35,75,30,30,30,65,265,False,3,12,53
+732,trumbeak,7,"normal, flying",keen-eye; skill-link; pickup,55,85,50,40,50,75,355,False,6,148,124
+733,toucannon,7,"normal, flying",keen-eye; skill-link; sheer-force,80,120,75,75,75,60,485,False,11,260,218
+734,yungoos,7,normal,stakeout; strong-jaw; adaptability,48,70,30,30,30,45,253,False,4,60,51
+735,gumshoos,7,normal,stakeout; strong-jaw; adaptability,88,110,60,55,60,45,418,False,7,142,146
+736,grubbin,7,bug,swarm,47,62,45,55,45,46,300,False,4,44,60
+737,charjabug,7,"bug, electric",battery,57,82,95,55,75,36,400,False,5,105,140
+738,vikavolt,7,"bug, electric",levitate,77,70,90,145,75,43,500,False,15,450,225
+739,crabrawler,7,fighting,hyper-cutter; iron-fist; anger-point,47,82,57,42,47,63,338,False,6,70,68
+740,crabominable,7,"fighting, ice",hyper-cutter; iron-fist; anger-point,97,132,77,62,67,43,478,False,17,1800,167
+741,oricorio-baile,7,"fire, flying",dancer,75,70,70,98,70,93,476,False,6,34,167
+742,cutiefly,7,"bug, fairy",honey-gather; shield-dust; sweet-veil,40,45,40,55,40,84,304,False,1,2,61
+743,ribombee,7,"bug, fairy",honey-gather; shield-dust; sweet-veil,60,55,60,95,70,124,464,False,2,5,162
+744,rockruff,7,rock,keen-eye; vital-spirit; steadfast,45,65,40,30,40,60,280,False,5,92,56
+745,lycanroc-midday,7,rock,keen-eye; sand-rush; steadfast,75,115,65,55,65,112,487,False,8,250,170
+746,wishiwashi-solo,7,water,schooling,45,20,20,25,25,40,175,False,2,3,61
+747,mareanie,7,"poison, water",merciless; limber; regenerator,50,53,62,43,52,45,305,False,4,80,61
+748,toxapex,7,"poison, water",merciless; limber; regenerator,50,63,152,53,142,35,495,False,7,145,173
+749,mudbray,7,ground,own-tempo; stamina; inner-focus,70,100,70,45,55,45,385,False,10,1100,77
+750,mudsdale,7,ground,own-tempo; stamina; inner-focus,100,125,100,55,85,35,500,False,25,9200,175
+751,dewpider,7,"water, bug",water-bubble; water-absorb,38,40,52,40,72,27,269,False,3,40,54
+752,araquanid,7,"water, bug",water-bubble; water-absorb,68,70,92,50,132,42,454,False,18,820,159
+753,fomantis,7,grass,leaf-guard; contrary,40,55,35,50,35,35,250,False,3,15,50
+754,lurantis,7,grass,leaf-guard; contrary,70,105,90,80,90,45,480,False,9,185,168
+755,morelull,7,"grass, fairy",illuminate; effect-spore; rain-dish,40,35,55,65,75,15,285,False,2,15,57
+756,shiinotic,7,"grass, fairy",illuminate; effect-spore; rain-dish,60,45,80,90,100,30,405,False,10,115,142
+757,salandit,7,"poison, fire",corrosion; oblivious,48,44,40,71,40,77,320,False,6,48,64
+758,salazzle,7,"poison, fire",corrosion; oblivious,68,64,60,111,60,117,480,False,12,222,168
+759,stufful,7,"normal, fighting",fluffy; klutz; cute-charm,70,75,50,45,50,50,340,False,5,68,68
+760,bewear,7,"normal, fighting",fluffy; klutz; unnerve,120,125,80,55,60,60,500,False,21,1350,175
+761,bounsweet,7,grass,leaf-guard; oblivious; sweet-veil,42,30,38,30,38,32,210,False,3,32,42
+762,steenee,7,grass,leaf-guard; oblivious; sweet-veil,52,40,48,40,48,62,290,False,7,82,102
+763,tsareena,7,grass,leaf-guard; queenly-majesty; sweet-veil,72,120,98,50,98,72,510,False,12,214,230
+764,comfey,7,fairy,flower-veil; triage; natural-cure,51,52,90,82,110,100,485,False,1,3,170
+765,oranguru,7,"normal, psychic",inner-focus; telepathy; symbiosis,90,60,80,90,110,60,490,False,15,760,172
+766,passimian,7,fighting,receiver; defiant,100,120,90,40,60,80,490,False,20,828,172
+767,wimpod,7,"bug, water",wimp-out,25,35,40,20,30,80,230,False,5,120,46
+768,golisopod,7,"bug, water",emergency-exit,75,125,140,60,90,40,530,False,20,1080,186
+769,sandygast,7,"ghost, ground",water-compaction; sand-veil,55,55,80,70,45,15,320,False,5,700,64
+770,palossand,7,"ghost, ground",water-compaction; sand-veil,85,75,110,100,75,35,480,False,13,2500,168
+771,pyukumuku,7,water,innards-out; unaware,55,60,130,30,130,5,410,False,3,12,144
+772,type-null,7,normal,battle-armor,95,95,95,95,95,59,534,False,19,1205,107
+773,silvally,7,normal,rks-system,95,95,95,95,95,95,570,False,23,1005,257
+774,minior-red-meteor,7,"rock, flying",shields-down,60,60,100,60,100,60,440,False,3,400,154
+775,komala,7,normal,comatose,65,115,65,75,95,65,480,False,4,199,168
+776,turtonator,7,"fire, dragon",shell-armor,60,78,135,91,85,36,485,False,20,2120,170
+777,togedemaru,7,"electric, steel",iron-barbs; lightning-rod; sturdy,65,98,63,40,73,96,435,False,3,33,152
+778,mimikyu-disguised,7,"ghost, fairy",disguise,55,90,80,50,105,96,476,False,2,7,167
+779,bruxish,7,"water, psychic",dazzling; strong-jaw; wonder-skin,68,105,70,70,70,92,475,False,9,190,166
+780,drampa,7,"normal, dragon",berserk; sap-sipper; cloud-nine,78,60,85,135,91,36,485,False,30,1850,170
+781,dhelmise,7,"ghost, grass",steelworker,70,131,100,86,90,40,517,False,39,2100,181
+782,jangmo-o,7,dragon,bulletproof; soundproof; overcoat,45,55,65,45,45,45,300,False,6,297,60
+783,hakamo-o,7,"dragon, fighting",bulletproof; soundproof; overcoat,55,75,90,65,70,65,420,False,12,470,147
+784,kommo-o,7,"dragon, fighting",bulletproof; soundproof; overcoat,75,110,125,100,105,85,600,False,16,782,270
+785,tapu-koko,7,"electric, fairy",electric-surge; telepathy,70,115,85,95,75,130,570,True,18,205,257
+786,tapu-lele,7,"psychic, fairy",psychic-surge; telepathy,70,85,75,130,115,95,570,True,12,186,257
+787,tapu-bulu,7,"grass, fairy",grassy-surge; telepathy,70,130,115,85,95,75,570,True,19,455,257
+788,tapu-fini,7,"water, fairy",misty-surge; telepathy,70,75,115,95,130,85,570,True,13,212,257
+789,cosmog,7,psychic,unaware,43,29,31,29,31,37,200,True,2,1,40
+790,cosmoem,7,psychic,sturdy,43,29,131,29,131,37,400,True,1,9999,140
+791,solgaleo,7,"psychic, steel",full-metal-body,137,137,107,113,89,97,680,True,34,2300,306
+792,lunala,7,"psychic, ghost",shadow-shield,137,113,89,137,107,97,680,True,40,1200,306
+793,nihilego,7,"rock, poison",beast-boost,109,53,47,127,131,103,570,True,12,555,257
+794,buzzwole,7,"bug, fighting",beast-boost,107,139,139,53,53,79,570,False,24,3336,257
+795,pheromosa,7,"bug, fighting",beast-boost,71,137,37,137,37,151,570,False,18,250,257
+796,xurkitree,7,electric,beast-boost,83,89,71,173,71,83,570,False,38,1000,257
+797,celesteela,7,"steel, flying",beast-boost,97,101,103,107,101,61,570,False,92,9999,257
+798,kartana,7,"grass, steel",beast-boost,59,181,131,59,31,109,570,False,3,1,257
+799,guzzlord,7,"dark, dragon",beast-boost,223,101,53,97,53,43,570,False,55,8880,257
+800,necrozma,7,psychic,prism-armor,97,107,101,127,89,79,600,False,24,2300,270
+801,magearna,7,"steel, fairy",soul-heart,80,95,115,130,115,65,600,False,10,805,270
+802,marshadow,7,"fighting, ghost",technician,90,125,80,90,90,125,600,False,7,222,270
+803,poipole,7,poison,beast-boost,67,73,67,73,67,73,420,False,6,18,189
+804,naganadel,7,"poison, dragon",beast-boost,73,73,73,127,73,121,540,False,36,1500,243
+805,stakataka,7,"rock, steel",beast-boost,61,131,211,53,101,13,570,False,55,8200,257
+806,blacephalon,7,"fire, ghost",beast-boost,53,127,53,151,79,107,570,False,18,130,257
+807,zeraora,7,electric,volt-absorb,88,112,75,102,80,143,600,False,15,445,270
+808,meltan,7,steel,magnet-pull,46,65,65,55,35,34,300,False,2,80,135
+809,melmetal,7,steel,iron-fist,135,143,143,80,65,34,600,False,25,8000,270
+810,grookey,8,grass,overgrow; grassy-surge,50,65,50,40,40,65,310,False,3,50,62
+811,thwackey,8,grass,overgrow; grassy-surge,70,85,70,55,60,80,420,False,7,140,147
+812,rillaboom,8,grass,overgrow; grassy-surge,100,125,90,60,70,85,530,False,21,900,265
+813,scorbunny,8,fire,blaze; libero,50,71,40,40,40,69,310,False,3,45,62
+814,raboot,8,fire,blaze; libero,65,86,60,55,60,94,420,False,6,90,147
+815,cinderace,8,fire,blaze; libero,80,116,75,65,75,119,530,False,14,330,265
+816,sobble,8,water,torrent; sniper,50,40,40,70,40,70,310,False,3,40,62
+817,drizzile,8,water,torrent; sniper,65,60,55,95,55,90,420,False,7,115,147
+818,inteleon,8,water,torrent; sniper,70,85,65,125,65,120,530,False,19,452,265
+819,skwovet,8,normal,cheek-pouch; gluttony,70,55,55,35,35,25,275,False,3,25,55
+820,greedent,8,normal,cheek-pouch; gluttony,120,95,95,55,75,20,460,False,6,60,161
+821,rookidee,8,flying,keen-eye; unnerve; big-pecks,38,47,35,33,35,57,245,False,2,18,49
+822,corvisquire,8,flying,keen-eye; unnerve; big-pecks,68,67,55,43,55,77,365,False,8,160,128
+823,corviknight,8,"flying, steel",pressure; unnerve; mirror-armor,98,87,105,53,85,67,495,False,22,750,248
+824,blipbug,8,bug,swarm; compound-eyes; telepathy,25,20,20,25,45,45,180,False,4,80,36
+825,dottler,8,"bug, psychic",swarm; compound-eyes; telepathy,50,35,80,50,90,30,335,False,4,195,117
+826,orbeetle,8,"bug, psychic",swarm; frisk; telepathy,60,45,110,80,120,90,505,False,4,408,253
+827,nickit,8,dark,run-away; unburden; stakeout,40,28,28,47,52,50,245,False,6,89,49
+828,thievul,8,dark,run-away; unburden; stakeout,70,58,58,87,92,90,455,False,12,199,159
+829,gossifleur,8,grass,cotton-down; regenerator; effect-spore,40,40,60,40,60,10,250,False,4,22,50
+830,eldegoss,8,grass,cotton-down; regenerator; effect-spore,60,50,90,80,120,60,460,False,5,25,161
+831,wooloo,8,normal,fluffy; run-away; bulletproof,42,40,55,40,45,48,270,False,6,60,122
+832,dubwool,8,normal,fluffy; steadfast; bulletproof,72,80,100,60,90,88,490,False,13,430,172
+833,chewtle,8,water,strong-jaw; shell-armor; swift-swim,50,64,50,38,38,44,284,False,3,85,57
+834,drednaw,8,"water, rock",strong-jaw; shell-armor; swift-swim,90,115,90,48,68,74,485,False,10,1155,170
+835,yamper,8,electric,ball-fetch; rattled,59,45,50,40,50,26,270,False,3,135,54
+836,boltund,8,electric,strong-jaw; competitive,69,90,60,90,60,121,490,False,10,340,172
+837,rolycoly,8,rock,steam-engine; heatproof; flash-fire,30,40,50,40,50,30,240,False,3,120,48
+838,carkol,8,"rock, fire",steam-engine; flame-body; flash-fire,80,60,90,60,70,50,410,False,11,780,144
+839,coalossal,8,"rock, fire",steam-engine; flame-body; flash-fire,110,80,120,80,90,30,510,False,28,3105,255
+840,applin,8,"grass, dragon",ripen; gluttony; bulletproof,40,40,80,40,40,20,260,False,2,5,52
+841,flapple,8,"grass, dragon",ripen; gluttony; hustle,70,110,80,95,60,70,485,False,3,10,170
+842,appletun,8,"grass, dragon",ripen; gluttony; thick-fat,110,85,80,100,80,30,485,False,4,130,170
+843,silicobra,8,ground,sand-spit; shed-skin; sand-veil,52,57,75,35,50,46,315,False,22,76,63
+844,sandaconda,8,ground,sand-spit; shed-skin; sand-veil,72,107,125,65,70,71,510,False,38,655,179
+845,cramorant,8,"flying, water",gulp-missile,70,85,55,85,95,85,475,False,8,180,166
+846,arrokuda,8,water,swift-swim; propeller-tail,41,63,40,40,30,66,280,False,5,10,56
+847,barraskewda,8,water,swift-swim; propeller-tail,61,123,60,60,50,136,490,False,13,300,172
+848,toxel,8,"electric, poison",rattled; static; klutz,40,38,35,54,35,40,242,False,4,110,48
+849,toxtricity-amped,8,"electric, poison",punk-rock; plus; technician,75,98,70,114,70,75,502,False,16,400,176
+850,sizzlipede,8,"fire, bug",flash-fire; white-smoke; flame-body,50,65,45,50,50,45,305,False,7,10,61
+851,centiskorch,8,"fire, bug",flash-fire; white-smoke; flame-body,100,115,65,90,90,65,525,False,30,1200,184
+852,clobbopus,8,fighting,limber; technician,50,68,60,50,50,32,310,False,6,40,62
+853,grapploct,8,fighting,limber; technician,80,118,90,70,80,42,480,False,16,390,168
+854,sinistea,8,ghost,weak-armor; cursed-body,40,45,45,74,54,50,308,False,1,2,62
+855,polteageist,8,ghost,weak-armor; cursed-body,60,65,65,134,114,70,508,False,2,4,178
+856,hatenna,8,psychic,healer; anticipation; magic-bounce,42,30,45,56,53,39,265,False,4,34,53
+857,hattrem,8,psychic,healer; anticipation; magic-bounce,57,40,65,86,73,49,370,False,6,48,130
+858,hatterene,8,"psychic, fairy",healer; anticipation; magic-bounce,57,90,95,136,103,29,510,False,21,51,255
+859,impidimp,8,"dark, fairy",prankster; frisk; pickpocket,45,45,30,55,40,50,265,False,4,55,53
+860,morgrem,8,"dark, fairy",prankster; frisk; pickpocket,65,60,45,75,55,70,370,False,8,125,130
+861,grimmsnarl,8,"dark, fairy",prankster; frisk; pickpocket,95,120,65,95,75,60,510,False,15,610,255
+862,obstagoon,8,"dark, normal",reckless; guts; defiant,93,90,101,60,81,95,520,False,16,460,260
+863,perrserker,8,steel,battle-armor; tough-claws; steely-spirit,70,110,100,50,60,50,440,False,8,280,154
+864,cursola,8,ghost,weak-armor; perish-body,60,95,50,145,130,30,510,False,10,4,179
+865,sirfetchd,8,fighting,steadfast; scrappy,62,135,95,68,82,65,507,False,8,1170,177
+866,mr-rime,8,"ice, psychic",tangled-feet; screen-cleaner; ice-body,80,85,75,110,100,70,520,False,15,582,182
+867,runerigus,8,"ground, ghost",wandering-spirit,58,95,145,50,105,30,483,False,16,666,169
+868,milcery,8,fairy,sweet-veil; aroma-veil,45,40,40,50,61,34,270,False,2,3,54
+869,alcremie,8,fairy,sweet-veil; aroma-veil,65,60,75,110,121,64,495,False,3,5,173
+870,falinks,8,fighting,battle-armor; defiant,65,100,100,70,60,75,470,False,30,620,165
+871,pincurchin,8,electric,lightning-rod; electric-surge,48,101,95,91,85,15,435,False,3,10,152
+872,snom,8,"ice, bug",shield-dust; ice-scales,30,25,35,45,30,20,185,False,3,38,37
+873,frosmoth,8,"ice, bug",shield-dust; ice-scales,70,65,60,125,90,65,475,False,13,420,166
+874,stonjourner,8,rock,power-spot,100,125,135,20,20,70,470,False,25,5200,165
+875,eiscue-ice,8,ice,ice-face,75,80,110,65,90,50,470,False,14,890,165
+876,indeedee-male,8,"psychic, normal",inner-focus; synchronize; psychic-surge,60,65,55,105,95,95,475,False,9,280,166
+877,morpeko-full-belly,8,"electric, dark",hunger-switch,58,95,58,70,58,97,436,False,3,30,153
+878,cufant,8,steel,sheer-force; heavy-metal,72,80,49,40,49,40,330,False,12,1000,66
+879,copperajah,8,steel,sheer-force; heavy-metal,122,130,69,80,69,30,500,False,30,6500,175
+880,dracozolt,8,"electric, dragon",volt-absorb; hustle; sand-rush,90,100,90,80,70,75,505,False,18,1900,177
+881,arctozolt,8,"electric, ice",volt-absorb; static; slush-rush,90,100,90,90,80,55,505,False,23,1500,177
+882,dracovish,8,"water, dragon",water-absorb; strong-jaw; sand-rush,90,90,100,70,80,75,505,False,23,2150,177
+883,arctovish,8,"water, ice",water-absorb; ice-body; slush-rush,90,90,100,80,90,55,505,False,20,1750,177
+884,duraludon,8,"steel, dragon",light-metal; heavy-metal; stalwart,70,95,115,120,50,85,535,False,18,400,187
+885,dreepy,8,"dragon, ghost",clear-body; infiltrator; cursed-body,28,60,30,40,30,82,270,False,5,20,54
+886,drakloak,8,"dragon, ghost",clear-body; infiltrator; cursed-body,68,80,50,60,50,102,410,False,14,110,144
+887,dragapult,8,"dragon, ghost",clear-body; infiltrator; cursed-body,88,120,75,100,75,142,600,False,30,500,300
+888,zacian,8,fairy,intrepid-sword,92,120,115,80,115,138,660,True,28,1100,335
+889,zamazenta,8,fighting,dauntless-shield,92,120,115,80,115,138,660,True,29,2100,335
+890,eternatus,8,"poison, dragon",pressure,140,85,95,145,95,130,690,True,200,9500,345
+891,kubfu,8,fighting,inner-focus,60,90,60,53,50,72,385,True,6,120,77
+892,urshifu-single-strike,8,"fighting, dark",unseen-fist,100,130,100,63,60,97,550,True,19,1050,275
+893,zarude,8,"dark, grass",leaf-guard,105,120,105,70,95,105,600,False,18,700,300
+894,regieleki,8,electric,transistor,80,100,50,100,50,200,580,True,12,1450,290
+895,regidrago,8,dragon,dragons-maw,200,100,50,100,50,80,580,True,21,2000,290
+896,glastrier,8,ice,chilling-neigh,100,145,130,65,110,30,580,False,22,8000,290
+897,spectrier,8,ghost,grim-neigh,100,65,60,145,80,130,580,False,20,445,290
+898,calyrex,8,"psychic, grass",unnerve,100,80,80,80,80,80,500,True,11,77,250
+899,wyrdeer,8,"normal, psychic",intimidate; frisk; sap-sipper,103,105,72,105,75,65,525,True,18,951,263
+900,kleavor,8,"bug, rock",swarm; sheer-force; sharpness,70,135,95,45,70,85,500,True,18,890,175
+901,ursaluna,8,"ground, normal",guts; bulletproof; unnerve,130,140,105,45,80,50,550,False,24,2900,275
+902,basculegion-male,8,"water, ghost",swift-swim; adaptability; mold-breaker,120,112,65,80,75,78,530,False,30,1100,265
+903,sneasler,8,"fighting, poison",pressure; unburden; poison-touch,80,130,60,40,80,120,510,False,13,430,102
+904,overqwil,8,"dark, poison",poison-point; swift-swim; intimidate,85,115,95,65,65,85,510,False,25,605,179
+905,enamorus-incarnate,8,"fairy, flying",cute-charm; contrary,74,115,70,135,80,106,580,True,16,480,116
+906,sprigatito,9,grass,overgrow; protean,40,61,54,45,45,65,310,False,4,41,62
+907,floragato,9,grass,overgrow; protean,61,80,63,60,63,83,410,False,9,122,144
+908,meowscarada,9,"grass, dark",overgrow; protean,76,110,70,81,70,123,530,False,15,312,265
+909,fuecoco,9,fire,blaze; unaware,67,45,59,63,40,36,310,False,4,98,62
+910,crocalor,9,fire,blaze; unaware,81,55,78,90,58,49,411,False,10,307,144
+911,skeledirge,9,"fire, ghost",blaze; unaware,104,75,100,110,75,66,530,False,16,3265,265
+912,quaxly,9,water,torrent; moxie,55,65,45,50,45,50,310,False,5,61,62
+913,quaxwell,9,water,torrent; moxie,70,85,65,65,60,65,410,False,12,215,144
+914,quaquaval,9,"water, fighting",torrent; moxie,85,120,80,85,75,85,530,False,18,619,265
+915,lechonk,9,normal,aroma-veil; gluttony; thick-fat,54,45,40,35,45,35,254,False,5,102,51
+916,oinkologne-male,9,normal,lingering-aroma; gluttony; thick-fat,110,100,75,59,80,65,489,False,10,1200,171
+917,tarountula,9,bug,insomnia; stakeout,35,41,45,29,40,20,210,False,3,40,42
+918,spidops,9,bug,insomnia; stakeout,60,79,92,52,86,35,404,False,10,165,141
+919,nymble,9,bug,swarm; tinted-lens,33,46,40,21,25,45,210,False,2,10,42
+920,lokix,9,"bug, dark",swarm; tinted-lens,71,102,78,52,55,92,450,False,10,175,158
+921,pawmi,9,electric,static; natural-cure; iron-fist,45,50,20,40,25,60,240,False,3,25,48
+922,pawmo,9,"electric, fighting",volt-absorb; natural-cure; iron-fist,60,75,40,50,40,85,350,False,4,65,123
+923,pawmot,9,"electric, fighting",volt-absorb; natural-cure; iron-fist,70,115,70,70,60,105,490,False,9,410,245
+924,tandemaus,9,normal,run-away; pickup; own-tempo,50,50,45,40,45,75,305,False,3,18,61
+925,maushold-family-of-four,9,normal,friend-guard; cheek-pouch; technician,74,75,70,65,75,111,470,False,3,23,165
+926,fidough,9,fairy,own-tempo; klutz,37,55,70,30,55,65,312,False,3,109,62
+927,dachsbun,9,fairy,well-baked-body; aroma-veil,57,80,115,50,80,95,477,False,5,149,167
+928,smoliv,9,"grass, normal",early-bird; harvest,41,35,45,58,51,30,260,False,3,65,52
+929,dolliv,9,"grass, normal",early-bird; harvest,52,53,60,78,78,33,354,False,6,119,124
+930,arboliva,9,"grass, normal",seed-sower; harvest,78,69,90,125,109,39,510,False,14,482,255
+931,squawkabilly-green-plumage,9,"normal, flying",intimidate; hustle; guts,82,96,51,45,51,92,417,False,6,24,146
+932,nacli,9,rock,purifying-salt; sturdy; clear-body,55,55,75,35,35,25,280,False,4,160,56
+933,naclstack,9,rock,purifying-salt; sturdy; clear-body,60,60,100,35,65,35,355,False,6,1050,124
+934,garganacl,9,rock,purifying-salt; sturdy; clear-body,100,100,130,45,90,35,500,False,23,2400,250
+935,charcadet,9,fire,flash-fire; flame-body,40,50,40,50,40,35,255,False,6,105,51
+936,armarouge,9,"fire, psychic",flash-fire; weak-armor,85,60,100,125,80,75,525,False,15,850,263
+937,ceruledge,9,"fire, ghost",flash-fire; weak-armor,75,125,80,60,100,85,525,False,16,620,263
+938,tadbulb,9,electric,own-tempo; static; damp,61,31,41,59,35,45,272,False,3,4,54
+939,bellibolt,9,electric,electromorphosis; static; damp,109,64,91,103,83,45,495,False,12,1130,173
+940,wattrel,9,"electric, flying",wind-power; volt-absorb; competitive,40,40,35,55,40,70,280,False,4,36,56
+941,kilowattrel,9,"electric, flying",wind-power; volt-absorb; competitive,70,70,60,105,60,125,490,False,14,386,172
+942,maschiff,9,dark,intimidate; run-away; stakeout,60,78,60,40,51,51,340,False,5,160,68
+943,mabosstiff,9,dark,intimidate; guard-dog; stakeout,80,120,90,60,70,85,505,False,11,610,177
+944,shroodle,9,"poison, normal",unburden; pickpocket; prankster,40,65,35,40,35,75,290,False,2,7,58
+945,grafaiai,9,"poison, normal",unburden; poison-touch; prankster,63,95,65,80,72,110,485,False,7,272,170
+946,bramblin,9,"grass, ghost",wind-rider; infiltrator,40,65,30,45,35,60,275,False,6,6,55
+947,brambleghast,9,"grass, ghost",wind-rider; infiltrator,55,115,70,80,70,90,480,False,12,60,168
+948,toedscool,9,"ground, grass",mycelium-might; mycelium-might,40,40,35,50,100,70,335,False,9,330,67
+949,toedscruel,9,"ground, grass",mycelium-might; mycelium-might,80,70,65,80,120,100,515,False,19,580,180
+950,klawf,9,rock,anger-shell; shell-armor; regenerator,70,100,115,35,55,75,450,False,13,790,158
+951,capsakid,9,grass,chlorophyll; insomnia; klutz,50,62,40,62,40,50,304,False,3,30,61
+952,scovillain,9,"grass, fire",chlorophyll; insomnia; moody,65,108,65,108,65,75,486,False,9,150,170
+953,rellor,9,bug,compound-eyes; shed-skin,41,50,60,31,58,30,270,False,2,10,54
+954,rabsca,9,"bug, psychic",synchronize; telepathy,75,50,85,115,100,45,470,False,3,35,165
+955,flittle,9,psychic,anticipation; frisk; speed-boost,30,35,30,55,30,75,255,False,2,15,51
+956,espathra,9,psychic,opportunist; frisk; speed-boost,95,60,60,101,60,105,481,False,19,900,168
+957,tinkatink,9,"fairy, steel",mold-breaker; own-tempo; pickpocket,50,45,45,35,64,58,297,False,4,89,59
+958,tinkatuff,9,"fairy, steel",mold-breaker; own-tempo; pickpocket,65,55,55,45,82,78,380,False,7,591,133
+959,tinkaton,9,"fairy, steel",mold-breaker; own-tempo; pickpocket,85,75,77,70,105,94,506,False,7,1128,253
+960,wiglett,9,water,gooey; rattled; sand-veil,10,55,25,35,25,95,245,False,12,18,49
+961,wugtrio,9,water,gooey; rattled; sand-veil,35,100,50,50,70,120,425,False,12,54,149
+962,bombirdier,9,"flying, dark",big-pecks; keen-eye; rocky-payload,70,103,85,60,85,82,485,False,15,429,243
+963,finizen,9,water,water-veil; water-veil,70,45,40,45,40,75,315,False,13,602,63
+964,palafin-zero,9,water,zero-to-hero; zero-to-hero,100,70,72,53,62,100,457,False,13,602,160
+965,varoom,9,"steel, poison",overcoat; slow-start,45,70,63,30,45,47,300,False,10,350,60
+966,revavroom,9,"steel, poison",overcoat; filter,80,119,90,54,67,90,500,False,18,1200,175
+967,cyclizar,9,"dragon, normal",shed-skin; regenerator,70,95,65,85,65,121,501,False,16,630,175
+968,orthworm,9,steel,earth-eater; sand-veil,70,85,145,60,55,65,480,False,25,3100,240
+969,glimmet,9,"rock, poison",toxic-debris; corrosion,48,35,42,105,60,60,350,False,7,80,70
+970,glimmora,9,"rock, poison",toxic-debris; corrosion,83,55,90,130,81,86,525,False,15,450,184
+971,greavard,9,ghost,pickup; fluffy,50,61,60,30,55,34,290,False,6,350,58
+972,houndstone,9,ghost,sand-rush; fluffy,72,101,100,50,97,68,488,False,20,150,171
+973,flamigo,9,"flying, fighting",scrappy; tangled-feet; costar,82,115,74,75,64,90,500,False,16,370,175
+974,cetoddle,9,ice,thick-fat; snow-cloak; sheer-force,108,68,45,30,40,43,334,False,12,450,67
+975,cetitan,9,ice,thick-fat; slush-rush; sheer-force,170,113,65,45,55,73,521,False,45,7000,182
+976,veluza,9,"water, psychic",mold-breaker; sharpness,90,102,73,78,65,70,478,False,25,900,167
+977,dondozo,9,water,unaware; oblivious; water-veil,150,100,115,65,65,35,530,False,120,2200,265
+978,tatsugiri-curly,9,"dragon, water",commander; storm-drain,68,50,60,120,95,82,475,False,3,80,166
+979,annihilape,9,"fighting, ghost",vital-spirit; inner-focus; defiant,110,115,80,50,90,90,535,False,12,560,268
+980,clodsire,9,"poison, ground",poison-point; water-absorb; unaware,130,75,60,45,100,20,430,False,18,2230,151
+981,farigiraf,9,"normal, psychic",cud-chew; armor-tail; sap-sipper,120,90,70,110,70,60,520,True,32,1600,260
+982,dudunsparce-two-segment,9,normal,serene-grace; run-away; rattled,125,100,80,85,75,55,520,True,36,392,182
+983,kingambit,9,"dark, steel",defiant; supreme-overlord; pressure,100,135,120,60,85,50,550,False,20,1200,275
+984,great-tusk,9,"ground, fighting",protosynthesis,115,131,131,53,53,87,570,True,22,3200,285
+985,scream-tail,9,"fairy, psychic",protosynthesis,115,65,99,65,115,111,570,True,12,80,285
+986,brute-bonnet,9,"grass, dark",protosynthesis,111,127,99,79,99,55,570,True,12,210,285
+987,flutter-mane,9,"ghost, fairy",protosynthesis,55,55,55,135,135,135,570,True,14,40,285
+988,slither-wing,9,"bug, fighting",protosynthesis,85,135,79,85,105,81,570,False,32,920,285
+989,sandy-shocks,9,"electric, ground",protosynthesis,85,81,97,121,85,101,570,False,23,600,285
+990,iron-treads,9,"ground, steel",quark-drive,90,112,120,72,70,106,570,False,9,2400,285
+991,iron-bundle,9,"ice, water",quark-drive,56,80,114,124,60,136,570,False,6,110,285
+992,iron-hands,9,"fighting, electric",quark-drive,154,140,108,50,68,50,570,False,18,3807,285
+993,iron-jugulis,9,"dark, flying",quark-drive,94,80,86,122,80,108,570,False,13,1110,285
+994,iron-moth,9,"fire, poison",quark-drive,80,70,60,140,110,110,570,False,12,360,285
+995,iron-thorns,9,"rock, electric",quark-drive,100,134,110,70,84,72,570,False,16,3030,285
+996,frigibax,9,"dragon, ice",thermal-exchange; ice-body,65,75,45,35,45,55,320,False,5,170,64
+997,arctibax,9,"dragon, ice",thermal-exchange; ice-body,90,95,66,45,65,62,423,False,8,300,148
+998,baxcalibur,9,"dragon, ice",thermal-exchange; ice-body,115,145,92,75,86,87,600,False,21,2100,300
+999,gimmighoul,9,ghost,rattled,45,30,70,75,70,10,300,False,3,50,60
+1000,gholdengo,9,"steel, ghost",good-as-gold,87,60,95,133,91,84,550,True,12,300,275
+1001,wo-chien,9,"dark, grass",tablets-of-ruin,85,85,100,95,135,70,570,True,15,742,285
+1002,chien-pao,9,"dark, ice",sword-of-ruin,80,120,80,90,65,135,570,True,19,1522,285
+1003,ting-lu,9,"dark, ground",vessel-of-ruin,155,110,125,55,80,45,570,True,27,6997,285
+1004,chi-yu,9,"dark, fire",beads-of-ruin,55,80,80,135,120,100,570,True,4,49,285
+1005,roaring-moon,9,"dragon, dark",protosynthesis,105,139,71,55,101,119,590,False,20,3800,295
+1006,iron-valiant,9,"fairy, fighting",quark-drive,74,130,90,120,60,116,590,False,14,350,295
+1007,koraidon,9,"fighting, dragon",orichalcum-pulse,100,135,115,85,100,135,670,False,25,3030,335
+1008,miraidon,9,"electric, dragon",hadron-engine,100,85,100,135,115,135,670,False,35,2400,335
+1009,walking-wake,9,"water, dragon",protosynthesis,99,83,91,125,83,109,590,False,35,2800,295
+1010,iron-leaves,9,"grass, psychic",quark-drive,90,130,88,70,108,104,590,False,15,1250,295
+1011,dipplin,9,"grass, dragon",supersweet-syrup; gluttony; sticky-hold,80,80,110,95,80,40,485,False,4,97,170
+1012,poltchageist,9,"grass, ghost",hospitality; heatproof,40,45,45,74,54,50,308,False,1,11,62
+1013,sinistcha,9,"grass, ghost",hospitality; heatproof,71,60,106,121,80,70,508,False,2,22,178
+1014,okidogi,9,"poison, fighting",toxic-chain; guard-dog,88,128,115,58,86,80,555,False,18,922,278
+1015,munkidori,9,"poison, psychic",toxic-chain; frisk,88,75,66,130,90,106,555,False,10,122,278
+1016,fezandipiti,9,"poison, fairy",toxic-chain; technician,88,91,82,70,125,99,555,False,14,301,278
+1017,ogerpon,9,grass,defiant,80,120,84,60,96,110,550,False,12,398,275
+1018,archaludon,9,"steel, dragon",stamina; sturdy; stalwart,90,105,130,125,65,85,600,False,20,600,300
+1019,hydrapple,9,"grass, dragon",supersweet-syrup; regenerator; sticky-hold,106,80,110,120,80,44,540,False,18,930,270
+1020,gouging-fire,9,"fire, dragon",protosynthesis,105,115,121,65,93,91,590,False,35,5900,295
+1021,raging-bolt,9,"electric, dragon",protosynthesis,125,73,91,137,89,75,590,False,52,4800,295
+1022,iron-boulder,9,"rock, psychic",quark-drive,90,120,80,68,108,124,590,False,15,1625,295
+1023,iron-crown,9,"steel, psychic",quark-drive,90,72,100,122,108,98,590,False,16,1560,295
+1024,terapagos,9,normal,tera-shift,90,65,85,65,85,60,450,False,2,65,90
+1025,pecharunt,9,"poison, ghost",poison-puppeteer,88,88,160,88,88,88,600,False,3,3,300
