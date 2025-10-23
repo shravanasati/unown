@@ -40,7 +40,7 @@ def display_prediction(prediction, probability):
         st.metric("Legendary Probability", f"{probability[1]:.2%}")
 
 
-st.title("🔮 Pokemon Legendary Status Predictor")
+st.title("🔮 Unown - Pokemon Legendary Status Predictor")
 st.markdown("---")
 
 # Create tabs for two different prediction modes
@@ -206,7 +206,7 @@ st.markdown("---")
 st.markdown(
     """
 <div style='text-align: center'>
-    <p><small>Pokemon Legendary Predictor | Built with Streamlit & Machine Learning</small></p>
+    <p><small>Unown | Built with Streamlit & Machine Learning</small></p>
 </div>
 """,
     unsafe_allow_html=True,
