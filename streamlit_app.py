@@ -24,6 +24,22 @@ def load_pokemon_data():
 model, feature_columns = load_model()
 pokemon_df = load_pokemon_data()
 
+
+# Helper function to display prediction results
+def display_prediction(prediction, probability):
+    """Display prediction results in a consistent format."""
+    if prediction == 1:
+        st.success("🌟 This Pokemon is LEGENDARY!")
+    else:
+        st.info("⚪ This Pokemon is NOT Legendary")
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.metric("Non-Legendary Probability", f"{probability[0]:.2%}")
+    with col2:
+        st.metric("Legendary Probability", f"{probability[1]:.2%}")
+
+
 st.title("🔮 Pokemon Legendary Status Predictor")
 st.markdown("---")
 
@@ -97,19 +113,7 @@ with tab1:
 
     st.markdown("---")
     st.subheader("Prediction Result")
-
-    col1, col2 = st.columns(2)
-    with col1:
-        if prediction == 1:
-            st.success("🌟 This Pokemon is LEGENDARY!")
-            st.metric("Legendary Probability", f"{probability[1]:.2%}")
-        else:
-            st.info("⚪ This Pokemon is NOT Legendary")
-            st.metric("Non-Legendary Probability", f"{probability[0]:.2%}")
-
-    with col2:
-        st.metric("Non-Legendary Probability", f"{probability[0]:.2%}")
-        st.metric("Legendary Probability", f"{probability[1]:.2%}")
+    display_prediction(prediction, probability)
 
 
 with tab2:
@@ -183,19 +187,7 @@ with tab2:
 
         st.markdown("---")
         st.subheader("Prediction Result")
-
-        col1, col2 = st.columns(2)
-        with col1:
-            if prediction == 1:
-                st.success("🌟 This Pokemon is LEGENDARY!")
-                st.metric("Legendary Probability", f"{probability[1]:.2%}")
-            else:
-                st.info("⚪ This Pokemon is NOT Legendary")
-                st.metric("Non-Legendary Probability", f"{probability[0]:.2%}")
-
-        with col2:
-            st.metric("Non-Legendary Probability", f"{probability[0]:.2%}")
-            st.metric("Legendary Probability", f"{probability[1]:.2%}")
+        display_prediction(prediction, probability)
 
         # Show feature importance context
         with st.expander("📊 Why this prediction?"):
