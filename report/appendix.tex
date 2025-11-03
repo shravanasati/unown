@@ -1,0 +1,117 @@
+% Appendix
+\appendix
+
+\chapter{Appendix: Resources and Licensing}
+\label{app:resources}
+
+\section{Deployment and Access}
+\label{app:deployment}
+
+The interactive Streamlit application is deployed and accessible online:
+
+\begin{itemize}
+  \item \textbf{Live Deployment URL:} http://134.199.172.48/
+  \item \textbf{Application Type:} Streamlit web app
+  \item \textbf{Infrastructure:} DigitalOcean \$4/month VPS (Ubuntu 24.04.2 LTS)
+  \item \textbf{Port:} 8501 (reverse-proxied via caddy)
+\end{itemize}
+
+Users can:
+\begin{enumerate}
+  \item Select and analyze existing Pokémon from the dataset.
+  \item Create and predict custom Pokémon specifications.
+  \item View model metrics, feature importance rankings, and engineered feature snapshots.
+  \item Experiment with different stat combinations to understand model decision boundaries.
+\end{enumerate}
+
+\section{Source Code Repository}
+\label{app:repository}
+
+All source code, data, and model artifacts are available on GitHub:
+
+\begin{itemize}
+  \item \textbf{Repository URL:} \url{https://github.com/shravanasati/unown}
+  \item \textbf{Repository Name:} \texttt{unown}
+  \item \textbf{Owner:} \texttt{shravanasati}
+  \item \textbf{Primary Branch:} \texttt{main}
+\end{itemize}
+
+\subsection{Installation and usage}
+
+To run the project locally:
+
+\begin{verbatim}
+# Clone the repository
+git clone https://github.com/shravanasati/unown.git
+cd unown
+
+# Install dependencies
+uv sync
+
+# Run the Streamlit app
+uv run streamlit run streamlit_app.py
+
+# Run model training (if retraining desired)
+jupyter notebook model_training.ipynb
+\end{verbatim}
+
+\section{License}
+\label{app:license}
+
+This project is licensed under the \textbf{Revised BSD License} (BSD-3-Clause). 
+
+\subsection{Third-party dependencies}
+
+The project depends on the following libraries, each governed by its own license.
+
+Users are responsible for complying with all applicable licenses when using or distributing this software and its dependencies.
+
+\section{Data Attribution}
+\label{app:data_attribution}
+
+The Pokémon dataset is sourced from the official Pokémon franchise game specifications, accessed via the \href{https://pokeapi.co}{\textbf{PokeAPI}}. The data includes:
+\begin{itemize}
+  \item Base statistics (HP, Attack, Defense, Sp. Atk, Sp. Def, Speed)
+  \item Pokédex information (name, generation, type, abilities, height, weight, base experience)
+  \item Legendary status (manually curated based on official Pokémon classifications)
+\end{itemize}
+
+Pokémon is a trademark of The Pokémon Company, Nintendo, and Game Freak. This project is for educational and research purposes only.
+
+\section{Citation}
+\label{app:citation}
+
+If you use this project in academic work, research, or publications, please cite it as follows:
+
+\begin{verbatim}
+@software{unown2025,
+  author = {Shravan Asati},
+  title = {Unown: Pokemon Legendary Status Predictor},
+  url = {https://github.com/shravanasati/unown},
+  year = {2025},
+  license = {BSD-3-Clause}
+}
+\end{verbatim}
+
+Or in BibTeX format:
+
+\begin{verbatim}
+@inproceedings{unown2025,
+  title={Domain-Informed Feature Engineering for Imbalanced Classification: 
+         A Pokemon Legendary Detection Case Study},
+  author={Asati, Shravan},
+  year={2025},
+  note={Available at https://github.com/shravanasati/unown}
+}
+\end{verbatim}
+
+\section{Contact and Support}
+\label{app:contact}
+
+For questions, bug reports, or contributions:
+
+\begin{itemize}
+  \item \textbf{GitHub Issues:} \url{https://github.com/shravanasati/unown/issues}
+  \item \textbf{GitHub Discussions:} \url{https://github.com/shravanasati/unown/discussions}
+  \item \textbf{Pull Requests:} Contributions are welcome; see repository for guidelines.
+\end{itemize}

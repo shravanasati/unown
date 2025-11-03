@@ -1,0 +1,21 @@
+% Introduction chapter for the report
+\chapter{Introduction}
+
+This chapter introduces the problem of identifying legendary Pokémon from structured game-derived data and explains why it matters. In many practical contexts — dataset curation, automated tagging for analytics, and interactive discovery tools — correctly flagging rare or special entities (such as legendary Pokémon) improves downstream model quality, search, and user experience. The problem is challenging because the legendary class is highly imbalanced in the available data, and simple thresholds on raw statistics often fail to capture domain subtleties like exclusive abilities or rare type combinations.
+
+\section{Real-world motivation}
+
+From a practical standpoint, a reliable legendary detector benefits data engineers, game-analytics teams, and hobbyist tools: it helps maintain clean labels in evolving datasets, prioritizes examples for manual review, and enables interactive demos (the included Streamlit app) that let users explore how features contribute to a legendary classification. Additionally, the techniques developed here (feature priors, body-metrics, z-scored statistics) generalize to other imbalanced classification tasks where domain priors and rare categorical signals are informative.
+
+\section{Project objectives}
+
+The main objectives of this project are to:
+\begin{itemize}
+  \item Engineer domain-informed features that capture priors (type and ability rates), body-metrics, and relative stat signals.
+  \item Train and evaluate supervised classifiers that handle class imbalance, selecting a compact production model with strong precision/recall trade-offs.
+  \item Persist model artifacts (model, feature columns, feature builder) and provide an interactive demo for inspection and prediction.
+\end{itemize}
+
+\subsection{Specific goals}
+
+The work focuses on producing a reproducible feature pipeline (the `FeatureBuilder`), a tuned Random Forest production model, and serialized artifacts to support an interactive Streamlit demo and future re-training.

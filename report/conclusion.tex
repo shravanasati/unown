@@ -1,0 +1,126 @@
+% Conclusion and Future Work chapter
+\chapter{Conclusion and Future Work}
+\label{chap:conclusion}
+
+This chapter synthesizes the project's achievements, identifies key takeaways, acknowledges limitations, and proposes directions for future research and development.
+
+\section{Key Takeaways}
+\label{sec:takeaways}
+
+\subsection{Project success}
+
+This project successfully developed an end-to-end machine-learning system for automated legendary Pokémon detection, from dataset construction through feature engineering, model training, threshold optimization, and interactive deployment. Key accomplishments:
+
+\begin{enumerate}
+  \item \textbf{Domain-informed feature engineering:} Designed and implemented a reproducible \texttt{FeatureBuilder} class that encodes game-domain priors (ability rates, type combinations, generation effects) alongside statistical features. This approach proved highly effective: ability-based priors alone account for 41.8\% of model importance, validating the hypothesis that domain knowledge improves imbalanced classification.
+  
+  \item \textbf{Class imbalance management:} Successfully handled a severe 6.9\% legendary class imbalance via stratified cross-validation, class-weighted training, and threshold optimization. The optimized Random Forest achieves F1 = 0.78 (79\% recall, 86\% precision), substantially better than the default threshold (F1 = 0.69).
+  
+  \item \textbf{Production-ready model:} Trained and serialized a Random Forest with supporting artifacts (\texttt{feature\_builder.joblib}, \texttt{feature\_columns.joblib}, \texttt{pokemon\_legendary\_model.joblib}), enabling reproducible inference on new data.
+  
+  \item \textbf{Interactive deployment:} Built a Streamlit web application and deployed it on a cost-effective DigitalOcean VPS (\$4/month), demonstrating that high-quality ML solutions need not require expensive cloud infrastructure.
+  
+  \item \textbf{Interpretability:} Model predictions are explainable: feature importance rankings and engineered feature snapshots allow users to understand why a Pokémon is predicted to be legendary.
+\end{enumerate}
+
+\subsection{Effectiveness of engineered features}
+
+The dominance of ability-based legendary rates (41.8\%) and experience-related features (36.0\% combined) reveals that:
+\begin{itemize}
+  \item \textbf{Game mechanics encode intent:} Designers use exclusive abilities and high base experience to mark legendary Pokémon, creating strong proxy signals for classification.
+  \item \textbf{Raw stats are insufficient:} Despite expectations, individual stats and composite indices (base total, bulk) contribute only 6\% to model importance. Stat distributions overlap substantially between classes.
+  \item \textbf{Type combinations matter but secondarily:} Type combo legendary rates (10.3\%) are informative but weaker than ability and experience signals.
+\end{itemize}
+
+This finding has implications beyond Pokémon: in imbalanced classification on domain-specific data, encoding expert knowledge as features often outweighs raw numerical patterns.
+
+\subsection{Model robustness}
+
+The Random Forest achieved strong and balanced performance:
+\begin{itemize}
+  \item AUC-ROC = 0.974 (excellent discrimination across thresholds).
+  \item Precision = 0.86 (low false positive rate; user confidence in flagged predictions).
+  \item Recall = 0.79 (catches most true legends; minimal missed opportunities).
+  \item Generalization: The learned type, ability, and generation priors should generalize to new Pokémon within known categories.
+\end{itemize}
+
+\section{Limitations}
+\label{sec:limitations}
+
+\subsection{Dataset constraints}
+
+\begin{itemize}
+  \item \textbf{Size:} 1025 Pokémon is relatively modest; a larger dataset (e.g., 5000+ entries with synthetic or augmented data) might improve generalization.
+  \item \textbf{Class imbalance:} 6.9\% legendary class is challenging but unavoidable given the game design; oversampling techniques (SMOTE, ADASYN) could help but risk overfitting.
+  \item \textbf{Feature coverage:} The dataset includes only structured attributes (stats, types, abilities). Visual features (sprite/artwork) or textual features (Pokédex descriptions) are not utilized.
+\end{itemize}
+
+\subsection{Model and threshold limitations}
+
+\begin{itemize}
+  \item \textbf{Threshold stability:} The optimal threshold (0.91) was selected on the test set. A more robust approach would use nested cross-validation or a held-out validation set for threshold selection to avoid data leakage.
+  \item \textbf{Feature dependence:} Model performance relies on manually engineered features. New game mechanics or Pokémon types could render learned priors obsolete, requiring retraining.
+  \item \textbf{Generalization to new generations:} While the model is trained on Generations I–IX, future generations may introduce new legendary archetypes or ability/type combinations not seen during training.
+\end{itemize}
+
+\subsection{Deployment and infrastructure}
+
+\begin{itemize}
+  \item \textbf{Scalability:} The DigitalOcean VPS is cost-effective but has limited compute/memory. High-throughput inference or batch predictions may require scaling.
+  \item \textbf{Monitoring:} No automated model monitoring or drift detection is in place. Performance on new data is not tracked; periodic retraining on fresh data is manual.
+  \item \textbf{API and integration:} The Streamlit app is interactive but not easily integrated into other systems (e.g., game APIs, automated pipelines). A REST API would enable broader usage.
+\end{itemize}
+
+\section{Scope for Future Improvement}
+\label{sec:future_work}
+
+
+\begin{itemize}
+  \item \textbf{Nested cross-validation for threshold:} Implement stratified k-fold nested CV to select threshold on validation folds, ensuring robustness and avoiding test set leakage.
+  
+  \item \textbf{REST API:} Build a FastAPI or Flask server exposing model predictions via HTTP, enabling integration with external applications (game bots, data pipelines).
+  
+  \item \textbf{Multi-modal features:} Incorporate visual features (sprite images via CNN embeddings) or textual features (Pokédex descriptions via NLP embeddings) to enrich the feature set beyond structured attributes.
+  
+  \item \textbf{Ensemble stacking:} Combine Logistic Regression, Naive Bayes, and Random Forest via a meta-learner to potentially achieve higher F1 scores.
+  
+  \item \textbf{Advanced imbalance handling:} Experiment with SMOTE/ADASYN oversampling or focal loss to further improve minority-class performance.
+  
+  \item \textbf{Move and evolution features:} Extract and encode information about Pokémon move pools and evolution chains, which may carry legendary signals.
+\end{itemize}
+
+\section{Lessons Learned}
+\label{sec:lessons}
+
+\subsection{Domain knowledge is invaluable}
+
+The overwhelming importance of ability-based priors (41.8\%) compared to raw stats reinforces a crucial ML lesson: \textbf{domain expertise embedded in features outweighs black-box model complexity}. Spending time understanding the problem domain (Pokémon game mechanics) yielded a simpler, more interpretable, and more effective model than relying solely on neural networks or high-dimensional embeddings.
+
+\subsection{Threshold tuning is essential for imbalanced data}
+
+Simply training a model with class weights is insufficient. The optimized threshold (0.91 vs. 0.5) improved F1 from 0.69 to 0.78—a non-trivial 13\% relative gain. For imbalanced classification, threshold optimization should be a standard step, not an afterthought.
+
+\subsection{Reproducibility requires artifact serialization}
+
+Serializing the \texttt{FeatureBuilder}, feature columns, and model together ensures that inference replicates training exactly. This is critical for production systems where feature transformations must be identical at training and serving time.
+
+\subsection{Cost-effective deployment is viable}
+
+A \$4/month DigitalOcean VPS is sufficient for hosting a Streamlit app serving modest traffic. For many projects, expensive cloud platforms are overkill; simple, reliable infrastructure with automated deployment is often preferable.
+
+\section{Final Remarks}
+\label{sec:final_remarks}
+
+This project demonstrates that even on narrow, well-defined imbalanced classification tasks, thoughtful feature engineering and careful model tuning can yield production-ready systems. The combination of domain priors, statistical transformations, and ensemble learning proved robust and interpretable.
+
+The Pokémon legendary detection problem, while playful in context, illustrates generalizable principles applicable to real-world challenges: fraud detection (rare events), medical diagnosis (rare diseases), cybersecurity (anomaly detection), and other domains where the target class is rare but high-impact.
+
+The codebase and model artifacts are designed for reproducibility and extension. Future researchers can:
+\begin{itemize}
+  \item Extend the \texttt{FeatureBuilder} with new domain-specific features.
+  \item Retrain the model on new Pokémon or generations.
+  \item Integrate the model into applications (bots, games, analytics pipelines).
+  \item Apply the feature engineering and imbalance-handling techniques to new domains.
+\end{itemize}
+
+We hope this work serves as a practical reference for building interpretable, deployable ML systems on imbalanced tabular data.

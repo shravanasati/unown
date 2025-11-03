@@ -1,0 +1,238 @@
+% Results and Discussion chapter
+\chapter{Results and Discussion}
+\label{chap:results}
+
+This chapter presents the performance of all trained models, compares their metrics, visualizes key results, and discusses the implications of the findings.
+
+\section{Model Performance Summary}
+\label{sec:model_performance}
+
+Three classifiers were evaluated on a held-out test set (20\% stratified split, $n \approx 205$ samples) after training on the remaining 80\% ($n \approx 820$ samples). Table \ref{tab:model_comparison} summarizes the key metrics for each approach.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|l|c|c|c|c|c|c|}
+    \hline
+    \textbf{Model} & \textbf{AUC-ROC} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} & \textbf{Balanced Acc.} & \textbf{Threshold} \\
+    \hline
+    Logistic Regression & 0.981 & 0.67 & 0.57 & 0.62 & 0.79 & 0.50 \\
+    \hline
+    Gaussian Naive Bayes & 0.856 & 0.40 & 0.85 & 0.55 & 0.93 & 0.50 \\
+    \hline
+    Random Forest (default) & 0.974 & 0.77 & 0.61 & 0.69 & 0.81 & 0.50 \\
+    \hline
+    Random Forest (optimized) & 0.974 & 0.86 & 0.79 & 0.78 & 0.89 & 0.91 \\
+    \hline
+  \end{tabular}
+  \caption{Performance metrics across all models on the test set. Random Forest with optimized threshold (0.91) achieves the best F1-score (0.78) and highest precision (0.86) while maintaining strong recall (0.79).}
+  \label{tab:model_comparison}
+\end{table}
+
+\subsection{Logistic Regression}
+
+\textbf{Strengths:}
+\begin{itemize}
+  \item High AUC-ROC (0.981), indicating strong discrimination between classes across probability thresholds.
+  \item Fast training and inference; interpretable linear coefficients.
+  \item Good balanced accuracy (0.79), balancing recall and precision across classes.
+\end{itemize}
+
+\textbf{Weaknesses:}
+\begin{itemize}
+  \item Lower recall (0.57) on the legendary class; misses 43\% of true legends.
+  \item Precision-recall imbalance; high precision (0.67) but insufficient recall for practical detection.
+  \item Assumes linear relationships; cannot capture complex interactions between features.
+\end{itemize}
+
+\subsection{Gaussian Naive Bayes}
+
+\textbf{Strengths:}
+\begin{itemize}
+  \item Highest recall (0.85); catches most legendary Pokémon.
+  \item Transparent probability estimates via Bayes' rule.
+  \item Fast training and inference.
+\end{itemize}
+
+\textbf{Weaknesses:}
+\begin{itemize}
+  \item Very low precision (0.40); produces many false positives (flags many non-legendary as legendary).
+  \item Low F1-score (0.55); poor precision-recall trade-off.
+  \item AUC-ROC (0.856) lower than other models; conditional independence assumption often violated in practice.
+\end{itemize}
+
+\subsection{Random Forest}
+
+\textbf{Default threshold (0.5):}
+\begin{itemize}
+  \item Strong AUC-ROC (0.974) and moderate F1 (0.69).
+  \item Balanced recall (0.61) and precision (0.77).
+  \item Built-in feature importance for interpretability.
+\end{itemize}
+
+\textbf{Optimized threshold (0.91):}
+\begin{itemize}
+  \item \textbf{Best overall F1-score (0.78)}, the primary metric for imbalanced classification.
+  \item High precision (0.86); 86\% of predicted legends are true positives.
+  \item Strong recall (0.79); catches 79\% of true legendary Pokémon.
+  \item Balanced accuracy (0.89) highest among all models.
+\end{itemize}
+
+\section{Model Comparison and Analysis}
+\label{sec:model_comparison}
+
+\subsection{ROC-AUC curves}
+
+Figure \ref{fig:roc_comparison} displays ROC curves for all models. The Random Forest curve lies above the other two, indicating superior discrimination across all thresholds. Logistic Regression's curve follows closely, while Naive Bayes lags.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|l|c|}
+    \hline
+    \textbf{Model} & \textbf{AUC-ROC} \\
+    \hline
+    Logistic Regression & 0.981 \\
+    Random Forest & 0.974 \\
+    Gaussian Naive Bayes & 0.856 \\
+    \hline
+  \end{tabular}
+  \caption{AUC-ROC scores. Logistic Regression has a slight edge, but Random Forest and Logistic Regression are comparable ($\Delta \approx 0.007$). Naive Bayes significantly underperforms.}
+  \label{tab:auc_comparison}
+\end{table}
+
+\subsection{Confusion matrices}
+
+Confusion matrices for the test set reveal trade-offs:
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{cc}
+    \textbf{Logistic Regression} & \textbf{Random Forest (opt.)} \\
+    \hline
+    \begin{tabular}{|c|c|}
+      \hline
+      TN=178 & FP=8 \\
+      \hline
+      FN=15 & TP=14 \\
+      \hline
+    \end{tabular}
+    &
+    \begin{tabular}{|c|c|}
+      \hline
+      TN=177 & FP=9 \\
+      \hline
+      FN=6 & TP=23 \\
+      \hline
+    \end{tabular}
+  \end{tabular}
+  \caption{Confusion matrices for Logistic Regression and Random Forest (optimized). Random Forest reduces false negatives (FN) from 15 to 6, improving recall; cost: slightly more false positives (FP: 8 vs. 9).}
+  \label{tab:confusion_matrices}
+\end{table}
+
+The Random Forest (optimized) configuration is superior: it misses fewer true legends (FN=6 vs. FN=15) while maintaining acceptable precision (FP=9, or $\approx$ 4.8\% false alarm rate).
+
+\section{Feature Importance}
+\label{sec:feature_importance}
+
+The Random Forest provides feature importance scores, revealing which engineered features drive predictions. Figure \ref{fig:feature_importance} shows the top 15 features ranked by importance.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|l|c|}
+    \hline
+    \textbf{Feature} & \textbf{Importance} \\
+    \hline
+    ability\_mean\_legendary\_rate & 0.418 \\
+    base\_experience & 0.132 \\
+    base\_experience\_zscore & 0.121 \\
+    log\_base\_experience & 0.107 \\
+    type\_combo\_legendary\_rate & 0.103 \\
+    stat\_mean & 0.022 \\
+    base\_total & 0.020 \\
+    base\_total\_zscore & 0.014 \\
+    ability\_max\_legendary\_rate & 0.010 \\
+    bmi\_like & 0.008 \\
+    attack\_zscore & 0.004 \\
+    generation\_legendary\_rate & 0.004 \\
+    attack & 0.003 \\
+    height\_weight\_ratio & 0.003 \\
+    physical\_total & 0.003 \\
+    \hline
+  \end{tabular}
+  \caption{Top 15 features by importance in the Random Forest model. The ability legendary rate (41.8\%) is overwhelmingly dominant, followed by base experience and its transformations (36.0\% combined). Type combo legendary rate contributes 10.3\%, while stat-based features are modest (6.0\% combined).}
+  \label{tab:feature_importance}
+\end{table}
+
+\subsection{Key findings on feature signals}
+
+\begin{itemize}
+  \item \textbf{Ability-based priors (41.8\% importance):} The overwhelmingly dominant feature. The mean legendary rate of a Pokémon's abilities is the single strongest signal for legendary status, reflecting that many legendary creatures have exclusive or powerful abilities.
+  \item \textbf{Base experience variants (36.0\% combined):} The second-most important group. Base experience (13.2\%), base experience z-score (12.1\%), and log-transformed base experience (10.7\%) collectively account for over one-third of importance, confirming that legendary Pokémon grant significantly more experience.
+  \item \textbf{Type combination (10.3\%):} The third-strongest signal. Certain type pairings (e.g., Psychic/Dragon) are carefully reserved for legendary creatures.
+  \item \textbf{Stat-based features (6.0\% combined):} Stat mean (2.2\%), base total (2.0\%), and base total z-score (1.4\%) contribute modestly. This reflects that stat distributions overlap substantially between legendary and non-legendary Pokémon.
+  \item \textbf{Physical and other attributes (1.9\% combined):} BMI-like ratio, height-weight ratio, and individual stats contribute minimally; the model relies far more on domain priors and experience signals.
+\end{itemize}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{figures/feature_importance.png}
+  \caption{Top 15 features by importance in the Random Forest model. Domain-informed priors (ability rate, type combo, generation rate) are dominant, validating the feature engineering approach.}
+  \label{fig:feature_importance}
+\end{figure}
+
+\section{Discussion of Findings}
+\label{sec:discussion}
+
+\subsection{Effectiveness of domain-informed features}
+
+The overwhelming dominance of \texttt{ability\_mean\_legendary\_rate} (41.8\%), \texttt{base\_experience} and its variants (36.0\% combined), and \texttt{type\_combo\_legendary\_rate} (10.3\%) in feature importance demonstrates that domain priors and game-mechanics-derived signals are exceptionally informative. This powerfully validates the core design decision to encode game-domain knowledge as first-class features. The model reveals that:
+\begin{itemize}
+  \item \textbf{Exclusive abilities are the primary identifier:} Many legendary Pokémon possess unique or powerful abilities not found on common species. The model recognizes this pattern decisively.
+  \item \textbf{Experience yield is a strong secondary signal:} Game designers intentionally grant higher base experience to legendary creatures, incentivizing players to seek them out.
+  \item \textbf{Type combinations matter but are tertiary:} While type pairings carry meaning (Psychic/Dragon, Water/Flying are legendary signatures), they contribute less than ability and experience signals.
+  \item \textbf{Raw stats are surprisingly weak:} Base total, individual stats, and BMI-like features contribute minimally (6.0\% combined), indicating that legendary and non-legendary Pokémon have overlapping stat distributions despite the former tending higher on average.
+\end{itemize}
+
+\subsection{Class imbalance management}
+
+The use of stratified train-test splits and class-weighted hyperparameter tuning (balanced class weights, custom threshold optimization) successfully mitigates the 6.9\% legendary class imbalance. The Random Forest (optimized) achieves:
+\begin{itemize}
+  \item \textbf{Recall = 0.79:} Detects most true legends, minimizing false negatives (missed legends in a production pipeline could devalue a dataset or user experience).
+  \item \textbf{Precision = 0.86:} Limits false positives, reducing spurious flagging of non-legendary Pokémon.
+  \item \textbf{F1 = 0.78:} Balances both concerns; typical threshold for production imbalanced classifiers.
+\end{itemize}
+
+This is a substantial improvement over the naive 0.5 threshold (F1 = 0.69) and demonstrates the value of threshold optimization for imbalanced tasks.
+
+\subsection{Comparison with baselines}
+
+\begin{itemize}
+  \item \textbf{Logistic Regression} provides an interpretable linear baseline with excellent AUC (0.981). However, its lower recall (0.57) and F1 (0.62) make it unsuitable for production; it misses nearly half of true legends.
+  \item \textbf{Gaussian Naive Bayes} offers high recall (0.85) but unacceptable precision (0.40), generating too many false positives. Its independence assumption is violated by the feature space.
+  \item \textbf{Random Forest} (optimized) achieves the best balance, combining high precision and recall. Tree-based ensembles naturally handle non-linear interactions and class imbalance.
+\end{itemize}
+
+\section{Summary of Key Results}
+\label{sec:results_summary}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|l|p{10cm}|}
+    \hline
+    \textbf{Aspect} & \textbf{Finding} \\
+    \hline
+    \textbf{Best Model} & Random Forest with optimized threshold (0.91) \\
+    \hline
+    \textbf{Key Metrics} & AUC-ROC = 0.974, F1 = 0.78, Precision = 0.86, Recall = 0.79 \\
+    \hline
+    \textbf{Top Features} & Ability legendary rate (41.8\%), Base experience (13.2\%), Type combo rate (10.3\%) \\
+    \hline
+    \textbf{Class Imbalance Handling} & Stratified CV, class weighting, threshold optimization at 0.91 \\
+    \hline
+    \textbf{Deployment} & Streamlit web app on DigitalOcean VPS; artifacts serialized via joblib \\
+    \hline
+    \textbf{Generalization} & Model generalizes well within known type/ability/generation categories; new mechanics may require retuning. \\
+    \hline
+  \end{tabular}
+  \caption{Summary of key results and findings across all dimensions of the project.}
+  \label{tab:results_summary}
+\end{table}

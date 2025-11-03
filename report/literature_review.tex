@@ -1,0 +1,24 @@
+% Literature review / related work chapter
+\chapter{Literature Review}
+
+This chapter surveys representative approaches used for rare-class or imbalanced classification problems in structured tabular domains and highlights the gap addressed by this project.
+
+\section{Rule-based and heuristic approaches}
+
+Simple heuristic methods and rule-based filters are often used as first-pass detectors for rare or special classes. In the context of game-derived datasets, rules such as high ``base total'' thresholds, exclusive ability lists, or explicit dex-number membership can produce high-precision flags with minimal computation. While fast and interpretable, these approaches lack robustness: fixed thresholds are brittle across generations and forms, and they do not exploit multi-dimensional patterns or correlations between categorical priors (type, ability) and continuous statistics.
+
+\section{Resampling and cost-sensitive methods}
+
+The machine-learning literature offers a rich toolkit for handling imbalanced datasets, including oversampling (e.g., SMOTE and its variants), undersampling, and cost-sensitive learning (class-weighting or custom loss functions). These techniques have been applied widely to fraud detection, rare-event forecasting, and minority-class detection in tabular data. They mitigate class imbalance during training but do not by themselves encode domain priors (for example, the notion that a particular ability or type combination is especially indicative of a rare class).
+
+\section{Feature-prior and domain-informed engineering}
+
+Some prior works emphasize building domain-specific features or priors (for example, user/item priors in recommender systems or spatial priors in remote sensing). Translating this idea to Pokémon-style datasets, computing type-level and ability-level legendary rates, frequency priors, and z-scored stat features can provide compact, informative signals that complement resampling and model regularisation. However, many published pipelines either stop at simple aggregate priors or produce large, hard-to-reuse feature sets without a reproducible feature-builder component.
+
+\section{Ensembles, thresholding and explainability}
+
+Ensemble methods (Random Forests, Gradient Boosted Trees) are widely used for imbalanced tabular tasks due to their robustness and feature-importance diagnostics. Practical deployments often require post-hoc threshold tuning (optimizing for F1, recall, or precision) and artifact serialization for reproducibility. While powerful, ensembles alone do not guarantee interpretability unless paired with carefully engineered, explainable features.
+
+\section{Gap and contribution}
+
+The approaches above each offer strengths: heuristics for interpretability, resampling/cost-sensitive methods for class balance, priors for domain signal, and ensembles for predictive power. The gap we address is pragmatic and practical: a compact, reproducible pipeline that (1) encodes domain priors (type/ability/type-combo/generation) as first-class features, (2) augments them with standardized stat and body-metric signals (z-scores, composite indices), (3) packages the transformations in a serializable `FeatureBuilder` for reuse and inspection, and (4) couples a tuned ensemble with threshold optimization for an operational precision/recall trade-off. This combined, reproducible approach (plus an interactive Streamlit demo) fills a space between fragile heuristics and heavy end-to-end black-box systems.
