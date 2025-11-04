@@ -1,2 +1,139 @@
-# unown
-Unown is a pokemon legendary status classifier.
+# 🔮 Unown
+
+**Unown** is a machine learning-powered Pokemon legendary status classifier that predicts whether a Pokemon is legendary based on its stats, abilities, and other attributes.
+
+## ✨ Features
+
+- **ML-Powered Predictions**: Random Forest classifier trained on comprehensive Pokemon dataset
+- **Interactive Web App**: Beautiful Streamlit interface for predictions
+- **Feature Engineering**: Advanced domain-informed features for better accuracy
+- **Two Prediction Modes**:
+  - Predict existing Pokemon from the dataset
+  - Create custom Pokemon and predict their legendary status
+- **Model Insights**: View feature importance and model performance metrics
+
+## 🚀 Installation
+
+### Prerequisites
+
+- Python 3.12 or higher
+- [uv](https://github.com/astral-sh/uv) package manager (recommended) or pip
+
+### Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/shravanasati/unown.git
+cd unown
+```
+
+2. Install dependencies:
+
+Using uv (recommended):
+```bash
+uv sync
+```
+
+Or using pip:
+```bash
+pip install -r requirements.txt
+```
+
+## 📖 Usage
+
+### Running the Streamlit Web App
+
+Launch the interactive web application:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+The app will open in your browser at `http://localhost:8501`. From there you can:
+- Select existing Pokemon to see predictions
+- Create custom Pokemon with your own stats and abilities
+- View model performance metrics and feature importance
+- Explore engineered features used in predictions
+
+### Running the CLI
+
+For a simple command-line interface:
+
+```bash
+python main.py
+```
+
+### Downloading Fresh Dataset
+
+To download the latest Pokemon data from the PokeAPI:
+
+```bash
+python dataset_download.py
+```
+
+This will fetch Pokemon data (up to #1025) and save it to `pokemon_data.csv`.
+
+## 📁 Project Structure
+
+```
+unown/
+├── streamlit_app.py           # Main Streamlit web application
+├── main.py                    # Simple CLI interface
+├── feature_engineering.py     # Feature engineering utilities
+├── dataset_download.py        # Script to download Pokemon data
+├── model_training.ipynb       # Jupyter notebook for model training
+├── pokemon_data.csv           # Pokemon dataset
+├── pokemon_legendary_model.joblib  # Trained model artifacts
+├── feature_builder.joblib     # Feature engineering pipeline
+├── feature_columns.joblib     # Feature column definitions
+├── report/                    # LaTeX academic report and figures
+└── pyproject.toml            # Project dependencies and metadata
+```
+
+## 🤖 Model Information
+
+The classifier uses a **Random Forest** model with optimized hyperparameters, trained on features including:
+
+- **Ability legendary rates**: How often abilities appear on legendary Pokemon
+- **Type combination rates**: Legendary rates for specific type combinations
+- **Base stats**: HP, Attack, Defense, Special Attack, Special Defense, Speed
+- **Derived stats**: Base total, stat means, physical/special totals
+- **Base experience**: Experience points gained from defeating the Pokemon
+- **Generation**: Which generation the Pokemon belongs to
+
+The model achieves strong performance with:
+- Optimized decision threshold for balanced precision/recall
+- Feature importance analysis to understand predictions
+- Cross-validation for robust evaluation
+
+## 🛠️ Development
+
+### Feature Engineering
+
+The `FeatureBuilder` class in `feature_engineering.py` creates domain-informed features:
+- Calculates legendary rates for abilities, types, and generations
+- Normalizes numerical features (stats, height, weight)
+- Handles missing values and rare categories
+
+### Model Training
+
+Open `model_training.ipynb` in Jupyter to:
+- Explore the dataset
+- Train and tune the Random Forest model
+- Evaluate performance with various metrics
+- Export model artifacts
+
+## 📄 License
+
+This project is licensed under the BSD 3-Clause License - see the [LICENSE.txt](LICENSE.txt) file for details.
+
+## 🙏 Acknowledgments
+
+- Pokemon data sourced from [pypokedex](https://github.com/arnavb/pypokedex)
+- Built with [Streamlit](https://streamlit.io/), [scikit-learn](https://scikit-learn.org/), and [pandas](https://pandas.pydata.org/)
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by Shravan Asati</sub>
+</div>
