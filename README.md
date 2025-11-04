@@ -36,7 +36,7 @@ uv sync
 
 Or using pip:
 ```bash
-pip install -r requirements.txt
+pip install .
 ```
 
 ## 📖 Usage
@@ -65,7 +65,7 @@ python main.py
 
 ### Downloading Fresh Dataset
 
-To download the latest Pokémon data from the PokeAPI:
+To download the latest Pokémon data using pypokedex:
 
 ```bash
 python dataset_download.py
