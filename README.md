@@ -73,23 +73,6 @@ python dataset_download.py
 
 This will fetch Pokémon data (up to #1025) and save it to `pokemon_data.csv`.
 
-## 📁 Project Structure
-
-```
-unown/
-├── streamlit_app.py           # Main Streamlit web application
-├── main.py                    # Simple CLI interface
-├── feature_engineering.py     # Feature engineering utilities
-├── dataset_download.py        # Script to download Pokémon data
-├── model_training.ipynb       # Jupyter notebook for model training
-├── pokemon_data.csv           # Pokémon dataset
-├── pokemon_legendary_model.joblib  # Trained model artifacts
-├── feature_builder.joblib     # Feature engineering pipeline
-├── feature_columns.joblib     # Feature column definitions
-├── report/                    # LaTeX academic report and figures
-└── pyproject.toml            # Project dependencies and metadata
-```
-
 ## 🤖 Model Information
 
 The classifier uses a **Random Forest** model with optimized hyperparameters, trained on features including:
@@ -129,11 +112,5 @@ This project is licensed under the BSD 3-Clause License - see the [LICENSE.txt](
 
 ## 🙏 Acknowledgments
 
-- Pokémon data sourced from [pypokedex](https://github.com/arnavb/pypokedex)
+- Pokémon data sourced from [pypokedex](https://github.com/arnavb/pypokedex) and [PokéAPI](https://pokeapi.co/)
 - Built with [Streamlit](https://streamlit.io/), [scikit-learn](https://scikit-learn.org/), and [pandas](https://pandas.pydata.org/)
-
----
-
-<div align="center">
-  <sub>Built with ❤️ by Shravan Asati</sub>
-</div>
