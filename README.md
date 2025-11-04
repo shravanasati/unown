@@ -1,15 +1,15 @@
 # 🔮 Unown
 
-**Unown** is a machine learning-powered Pokemon legendary status classifier that predicts whether a Pokemon is legendary based on its stats, abilities, and other attributes.
+**Unown** is a machine learning-powered Pokémon legendary status classifier that predicts whether a Pokémon is legendary based on its stats, abilities, and other attributes.
 
 ## ✨ Features
 
-- **ML-Powered Predictions**: Random Forest classifier trained on comprehensive Pokemon dataset
+- **ML-Powered Predictions**: Random Forest classifier trained on comprehensive Pokémon dataset
 - **Interactive Web App**: Beautiful Streamlit interface for predictions
 - **Feature Engineering**: Advanced domain-informed features for better accuracy
 - **Two Prediction Modes**:
-  - Predict existing Pokemon from the dataset
-  - Create custom Pokemon and predict their legendary status
+  - Predict existing Pokémon from the dataset
+  - Create custom Pokémon and predict their legendary status
 - **Model Insights**: View feature importance and model performance metrics
 
 ## 🚀 Installation
@@ -50,8 +50,8 @@ streamlit run streamlit_app.py
 ```
 
 The app will open in your browser at `http://localhost:8501`. From there you can:
-- Select existing Pokemon to see predictions
-- Create custom Pokemon with your own stats and abilities
+- Select existing Pokémon to see predictions
+- Create custom Pokémon with your own stats and abilities
 - View model performance metrics and feature importance
 - Explore engineered features used in predictions
 
@@ -65,13 +65,13 @@ python main.py
 
 ### Downloading Fresh Dataset
 
-To download the latest Pokemon data from the PokeAPI:
+To download the latest Pokémon data from the PokeAPI:
 
 ```bash
 python dataset_download.py
 ```
 
-This will fetch Pokemon data (up to #1025) and save it to `pokemon_data.csv`.
+This will fetch Pokémon data (up to #1025) and save it to `pokemon_data.csv`.
 
 ## 📁 Project Structure
 
@@ -80,9 +80,9 @@ unown/
 ├── streamlit_app.py           # Main Streamlit web application
 ├── main.py                    # Simple CLI interface
 ├── feature_engineering.py     # Feature engineering utilities
-├── dataset_download.py        # Script to download Pokemon data
+├── dataset_download.py        # Script to download Pokémon data
 ├── model_training.ipynb       # Jupyter notebook for model training
-├── pokemon_data.csv           # Pokemon dataset
+├── pokemon_data.csv           # Pokémon dataset
 ├── pokemon_legendary_model.joblib  # Trained model artifacts
 ├── feature_builder.joblib     # Feature engineering pipeline
 ├── feature_columns.joblib     # Feature column definitions
@@ -94,12 +94,12 @@ unown/
 
 The classifier uses a **Random Forest** model with optimized hyperparameters, trained on features including:
 
-- **Ability legendary rates**: How often abilities appear on legendary Pokemon
+- **Ability legendary rates**: How often abilities appear on legendary Pokémon
 - **Type combination rates**: Legendary rates for specific type combinations
 - **Base stats**: HP, Attack, Defense, Special Attack, Special Defense, Speed
 - **Derived stats**: Base total, stat means, physical/special totals
-- **Base experience**: Experience points gained from defeating the Pokemon
-- **Generation**: Which generation the Pokemon belongs to
+- **Base experience**: Experience points gained from defeating the Pokémon
+- **Generation**: Which generation the Pokémon belongs to
 
 The model achieves strong performance with:
 - Optimized decision threshold for balanced precision/recall
@@ -129,7 +129,7 @@ This project is licensed under the BSD 3-Clause License - see the [LICENSE.txt](
 
 ## 🙏 Acknowledgments
 
-- Pokemon data sourced from [pypokedex](https://github.com/arnavb/pypokedex)
+- Pokémon data sourced from [pypokedex](https://github.com/arnavb/pypokedex)
 - Built with [Streamlit](https://streamlit.io/), [scikit-learn](https://scikit-learn.org/), and [pandas](https://pandas.pydata.org/)
 
 ---
